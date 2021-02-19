@@ -1,39 +1,20 @@
 <template>
-  <nav class="navbar navbar-expand-lg">
-    <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center">
-      </div>
+  <nav class="navbar navbar-expand-lg justify-content-center nav-item">
+    <router-link :to="{ name: 'Home' }" class="nav-link">
+      Home
     </router-link>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarText"
-      aria-controls="navbarText"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon" />
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <router-link :to="{ name: 'Home' }" class="nav-link">
-            Home
-          </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link :to="{ name: 'About' }" class="nav-link">
-            About
-          </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link :to="{ name: 'Contact' }" class="nav-link">
-            Contact
-          </router-link>
-        </li>
-      </ul>
-    </div>
+    <router-link :to="{ name: 'About' }" class="nav-link">
+      About
+    </router-link>
+    <router-link :to="{ name: 'LinkedIn' }" class="nav-link">
+      LinkedIn
+    </router-link>
+    <router-link :to="{ name: 'Github' }" class="nav-link">
+      Github
+    </router-link>
+    <router-link :to="{ name: 'Email' }" class="nav-link">
+      Email Me
+    </router-link>
   </nav>
 </template>
 
@@ -54,14 +35,8 @@ export default {
 </script>
 
 <style scoped>
-.dropdown-menu {
-  user-select: none;
-  display: block;
-  transform: scale(0);
-  transition: all 0.15s linear;
-}
-.dropdown-menu.show {
-  transform: scale(1);
+.navbar{
+  background-color: rgba(214, 212, 208, 0.473);
 }
 .hoverable {
   cursor: pointer;

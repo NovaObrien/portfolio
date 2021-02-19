@@ -1,11 +1,27 @@
 <template>
   <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+    <div class="row">
+      <img src="../assets/img/DragonLogo.svg" alt="" @click="critFailApp">
+      <img src="../assets/img/Bonzai.svg" alt="" @click="kanbanApp">
+    </div>
   </div>
 </template>
 
 <script>
+import router from '../router'
 export default {
-  name: 'Home'
+  name: 'Home',
+
+  setup() {
+    return {
+      critFailApp() {
+        router.push({ name: 'CritFail' })
+      },
+      kanbanApp() {
+        router.push({ name: 'Kanban' })
+      }
+    }
+  }
 }
 </script>
 
@@ -13,9 +29,8 @@ export default {
 .home{
   text-align: center;
   user-select: none;
-  > img{
-    height: 200px;
-    width: 200px;
-  }
+}
+img{
+  width: 50vh;
 }
 </style>
