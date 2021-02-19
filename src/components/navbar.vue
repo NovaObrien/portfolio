@@ -36,7 +36,7 @@ export default {
 
 <style scoped>
 .navbar{
-  background-color: rgba(214, 212, 208, 0.473);
+  background-color: rgba(214, 212, 208, 0.281);
 }
 .hoverable {
   cursor: pointer;

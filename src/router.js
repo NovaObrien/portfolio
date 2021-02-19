@@ -31,6 +31,11 @@ const routes = [
     beforeEnter() { location.href = 'https://github.com/NovaObrien' }
   },
   {
+    path: '/keepr',
+    name: 'Keepr',
+    beforeEnter() { location.href = 'https://keepr-1.herokuapp.com/' }
+  },
+  {
     path: '/critical-failure',
     name: 'CritFail',
     beforeEnter() { location.href = 'https://critical-failure-1.herokuapp.com/' }
