@@ -1,7 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-lg justify-content-center nav-item">
-    <router-link :to="{ name: 'Home' }" class="nav-link">
-      Home
+    <router-link :to="{ name: 'Apps' }" class="nav-link">
+      Apps
+    </router-link>
+    <router-link :to="{ name: 'Art' }" class="nav-link">
+      Art
     </router-link>
     <router-link :to="{ name: 'About' }" class="nav-link">
       About

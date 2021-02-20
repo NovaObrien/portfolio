@@ -7,8 +7,13 @@ function loadPage(page) {
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: loadPage('HomePage')
+    name: 'Apps',
+    component: loadPage('AppPage')
+  },
+  {
+    path: '/art',
+    name: 'Art',
+    component: loadPage('ArtPage')
   },
   {
     path: '/about',
@@ -31,6 +36,11 @@ const routes = [
     beforeEnter() { location.href = 'https://github.com/NovaObrien' }
   },
   {
+    path: '/email',
+    name: 'Email',
+    beforeEnter() { location.href = 'mailto: tannerkobrien@gmail.com' }
+  },
+  {
     path: '/keepr',
     name: 'Keepr',
     beforeEnter() { location.href = 'https://keepr-1.herokuapp.com/' }
@@ -46,9 +56,19 @@ const routes = [
     beforeEnter() { location.href = 'https://kanbandoit.herokuapp.com/' }
   },
   {
-    path: '/email',
-    name: 'Email',
-    beforeEnter() { location.href = 'mailto: tannerkobrien@gmail.com' }
+    path: '/farm-clicker',
+    name: 'FarmClicker',
+    beforeEnter() { location.href = 'https://novaobrien.github.io/Week-Two-Checkpoint/' }
+  },
+  {
+    path: '/balloon',
+    name: 'Balloon',
+    beforeEnter() { location.href = 'https://novaobrien.github.io/balloon-pop/' }
+  },
+  {
+    path: '/moody-kitten',
+    name: 'MoodyKitten',
+    beforeEnter() { location.href = 'https://novaobrien.github.io/Moody-Kittens/' }
   }
 
 ]
