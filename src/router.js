@@ -69,6 +69,11 @@ const routes = [
     path: '/moody-kitten',
     name: 'MoodyKitten',
     beforeEnter() { location.href = 'https://novaobrien.github.io/Moody-Kittens/' }
+  },
+  {
+    path: '/carpe-mare',
+    name: 'CarpeMare',
+    beforeEnter() { location.href = 'https://novaobrien.github.io/Weekone-checkpoint/' }
   }
 
 ]
