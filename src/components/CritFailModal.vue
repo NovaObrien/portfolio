@@ -1,13 +1,13 @@
 <template>
   <div class="crit-fail-modal">
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-      Launch demo modal
-    </button>
+    <div data-toggle="modal" data-target="#critModal">
+      <img class="critFailLogo rounded-circle" src="../assets/img/DragonLogo.svg" alt="">
+    </div>
 
     <!-- Modal -->
     <div class="modal fade"
-         id="exampleModalCenter"
+         id="critModal"
          tabindex="-1"
          role="dialog"
          aria-labelledby="exampleModalCenterTitle"
@@ -17,7 +17,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalCenterTitle">
-              Modal title
+              Critical Failure
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -51,5 +51,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.critFailLogo{
+  max-width: 35vh;
+  min-width: 35vh;
+  max-height: 35vh;
+  min-height: 35vh;
+  cursor: pointer;
+}
+.critFailLogo:hover{
+  opacity: 0.85;
 
+}
 </style>

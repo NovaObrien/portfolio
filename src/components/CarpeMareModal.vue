@@ -1,11 +1,15 @@
 <template>
-  <div class="rpg-blog-modal">
-    <!-- Button trigger modal -->
-    <i class="fa fa-dice-d20 fa-9x" data-toggle="modal" data-target="#rpgModal" id="dice"></i>
+  <div class="carpe-mare-modal">
+    <div data-toggle="modal" data-target="#carpeModal">
+      <div class="row carpe-logo">
+        <i class=" fas fa-anchor fa-3x"></i>
+        <h1>CarpeMare</h1>
+      </div>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade"
-         id="rpgModal"
+         id="carpeModal"
          tabindex="-1"
          role="dialog"
          aria-labelledby="exampleModalCenterTitle"
@@ -15,7 +19,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalCenterTitle">
-              Rpg-Blogger
+              Carpe Mare
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -28,7 +32,7 @@
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
               Close
             </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-primary" @click="keeprApp">
               Save changes
             </button>
           </div>
@@ -40,7 +44,7 @@
 
 <script>
 export default {
-  name: 'RpgBlogModal',
+  name: 'CarpeMareModal',
   setup() {
     return {}
   },
@@ -49,8 +53,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#dice:hover{
+.carpe-logo{
   cursor: pointer;
-  color: grey;
+}
+.carpe-logo:hover{
+  color: #636E72;
 }
 </style>

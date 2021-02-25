@@ -1,11 +1,12 @@
 <template>
-  <div class="rpg-blog-modal">
-    <!-- Button trigger modal -->
-    <i class="fa fa-dice-d20 fa-9x" data-toggle="modal" data-target="#rpgModal" id="dice"></i>
+  <div class="ballon-pop-modal">
+    <div data-toggle="modal" data-target="#balloonPop">
+      <img class="balloonPop" src="../assets/img/balloon-pop-logo.png" alt="">
+    </div>
 
     <!-- Modal -->
     <div class="modal fade"
-         id="rpgModal"
+         id="balloonPop"
          tabindex="-1"
          role="dialog"
          aria-labelledby="exampleModalCenterTitle"
@@ -15,21 +16,23 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalCenterTitle">
-              Rpg-Blogger
+              Balloon Pop
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
+            <div class="row border">
+              <img class="balloonSite" src="../assets/img/Balloon.png" alt="">
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
               Close
             </button>
-            <button type="button" class="btn btn-primary">
-              Save changes
+            <button type="button" class="btn btn-primary" @click="balloonApp">
+              Navigate to App
             </button>
           </div>
         </div>
@@ -39,18 +42,33 @@
 </template>
 
 <script>
+import router from '../router'
 export default {
-  name: 'RpgBlogModal',
+  name: 'BallonPopModal',
   setup() {
-    return {}
+    return {
+      balloonApp() {
+        router.push({ name: 'Balloon' })
+      }
+    }
   },
   components: {}
 }
 </script>
 
 <style lang="scss" scoped>
-#dice:hover{
+.balloonPop{
+ max-width: 40vh;
+  min-width: 40vh;
+  max-height: 10vh;
+  min-height: 10vh;
   cursor: pointer;
-  color: grey;
+}
+.balloonPop:hover{
+  opacity: 0.50;
+}
+.balloonSite{
+max-height: 25vh;
+max-width: 15vw;
 }
 </style>

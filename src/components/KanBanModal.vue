@@ -1,11 +1,13 @@
 <template>
-  <div class="rpg-blog-modal">
+  <div class="kan-ban-modal">
     <!-- Button trigger modal -->
-    <i class="fa fa-dice-d20 fa-9x" data-toggle="modal" data-target="#rpgModal" id="dice"></i>
+    <div data-toggle="modal" data-target="#kanbanModal">
+      <img class="kanbanLogo rounded-circle" src="../assets/img/Bonzai.svg" alt="">
+    </div>
 
     <!-- Modal -->
     <div class="modal fade"
-         id="rpgModal"
+         id="kanbanModal"
          tabindex="-1"
          role="dialog"
          aria-labelledby="exampleModalCenterTitle"
@@ -15,7 +17,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalCenterTitle">
-              Rpg-Blogger
+              Kanbandoit
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -28,7 +30,7 @@
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
               Close
             </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-primary" @click="keeprApp">
               Save changes
             </button>
           </div>
@@ -40,7 +42,7 @@
 
 <script>
 export default {
-  name: 'RpgBlogModal',
+  name: 'KanBanModal',
   setup() {
     return {}
   },
@@ -49,8 +51,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#dice:hover{
+.kanbanLogo{
+  max-width: 25vh;
+  min-width: 25vh;
+  max-height: 25vh;
+  min-height: 25vh;
   cursor: pointer;
-  color: grey;
+}
+.kanbanLogo:hover{
+  // background-image: linear-gradient(180deg, yellow, red );
+  background-repeat: no-repeat;
+  opacity: 0.85;
+
 }
 </style>

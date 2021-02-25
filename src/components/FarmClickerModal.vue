@@ -1,11 +1,12 @@
 <template>
-  <div class="rpg-blog-modal">
-    <!-- Button trigger modal -->
-    <i class="fa fa-dice-d20 fa-9x" data-toggle="modal" data-target="#rpgModal" id="dice"></i>
+  <div class="farm-clicker-modal">
+    <div data-toggle="modal" data-target="#farmModal">
+      <img class="farmClicker" src="../assets/img/pixil-frame-0.png" alt="">
+    </div>
 
     <!-- Modal -->
     <div class="modal fade"
-         id="rpgModal"
+         id="farmModal"
          tabindex="-1"
          role="dialog"
          aria-labelledby="exampleModalCenterTitle"
@@ -15,21 +16,20 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalCenterTitle">
-              Rpg-Blogger
+              Farming clicker
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
+            <div class="row">
+              <img class="border" src="../assets/img/pixil-frame-0.png" alt="">
+            </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">
-              Save changes
+            <button type="button" class="btn btn-primary" @click="keeprApp">
+              Navigate to App
             </button>
           </div>
         </div>
@@ -40,7 +40,7 @@
 
 <script>
 export default {
-  name: 'RpgBlogModal',
+  name: 'FarmClickerModal',
   setup() {
     return {}
   },
@@ -49,8 +49,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#dice:hover{
+.farmClicker{
+ max-width: 20vh;
+  min-width: 20vh;
+  max-height: 20vh;
+  min-height: 10vh;
   cursor: pointer;
-  color: grey;
+}
+.farmClicker:hover{
+  opacity: 0.50;
 }
 </style>

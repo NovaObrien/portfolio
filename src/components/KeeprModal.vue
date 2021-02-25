@@ -1,7 +1,7 @@
 <template>
   <div class="keepr-modal">
     <!-- Button trigger modal -->
-    <div data-toggle="modal" data-target="#exampleModalCenter">
+    <div data-toggle="modal" data-target="#keeprModal">
       <div class="d-flex flex-column align-items-center">
         <p class="px-1 rounded" id="logo">
           K
@@ -11,7 +11,7 @@
 
     <!-- Modal -->
     <div class="modal fade"
-         id="exampleModalCenter"
+         id="keeprModal"
          tabindex="-1"
          role="dialog"
          aria-labelledby="exampleModalCenterTitle"
@@ -21,7 +21,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalCenterTitle">
-              Modal title
+              Keepr
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -61,14 +61,13 @@ export default {
 
 <style lang="scss" scoped>
 #logo{
-  color: #636E72;
+  color: #000;
   font-family: 'Audiowide', cursive;
   font-size: 100px;
   border: 12px solid;
   cursor: pointer;
 }
 #logo:hover{
-  color: #000;
-  border-color: #000;
+  color: #636E72;
 }
 </style>

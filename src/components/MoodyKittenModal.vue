@@ -1,11 +1,13 @@
 <template>
-  <div class="rpg-blog-modal">
+  <div class="moody-kitten-modal">
     <!-- Button trigger modal -->
-    <i class="fa fa-dice-d20 fa-9x" data-toggle="modal" data-target="#rpgModal" id="dice"></i>
+    <div data-toggle="modal" data-target="#moodyModal">
+      <img class="moodyKitten" src="../assets/img/moody-logo.png" alt="">
+    </div>
 
     <!-- Modal -->
     <div class="modal fade"
-         id="rpgModal"
+         id="moodyModal"
          tabindex="-1"
          role="dialog"
          aria-labelledby="exampleModalCenterTitle"
@@ -15,7 +17,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalCenterTitle">
-              Rpg-Blogger
+              Moody Kittens
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -28,7 +30,7 @@
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
               Close
             </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-primary" @click="keeprApp">
               Save changes
             </button>
           </div>
@@ -40,7 +42,7 @@
 
 <script>
 export default {
-  name: 'RpgBlogModal',
+  name: 'MoodyKittenModal',
   setup() {
     return {}
   },
@@ -49,8 +51,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#dice:hover{
+.moodyKitten{
+ max-width: 20vh;
+  min-width: 10vh;
+  max-height: 25vh;
+  min-height: 10vh;
   cursor: pointer;
-  color: grey;
+}
+.moodyKitten:hover{
+  opacity: 0.50;
 }
 </style>
