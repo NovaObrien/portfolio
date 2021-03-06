@@ -27,10 +27,10 @@
             <img class="kanSite" src="../assets/img/KanBanPort.png" alt="">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" @click="kanCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-success" @click="kanApp">
               Navigate to Site
             </button>
           </div>
@@ -41,10 +41,18 @@
 </template>
 
 <script>
+import router from '../router'
 export default {
   name: 'KanBanModal',
   setup() {
-    return {}
+    return {
+      kanApp() {
+        router.push({ name: 'Kanban' })
+      },
+      kanCode() {
+        router.push({ name: 'KanbanCode' })
+      }
+    }
   },
   components: {}
 }
@@ -65,7 +73,7 @@ export default {
 
 }
 .kanSite{
-  max-height: 25vh;
-  max-width: 25vw;
+  max-height: 45vh;
+  max-width: 45vw;
 }
 </style>

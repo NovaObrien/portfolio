@@ -25,10 +25,10 @@
             <img class="rpgSite" src="../assets/img/rpgBlogPort.png" alt="">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" @click="rpgCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-success" @click="rpgApp">
               Navigate to Site
             </button>
           </div>
@@ -39,10 +39,18 @@
 </template>
 
 <script>
+import router from '../router'
 export default {
   name: 'RpgBlogModal',
   setup() {
-    return {}
+    return {
+      rpgApp() {
+        router.push({ name: 'RpgBlog' })
+      },
+      rpgCode() {
+        router.push({ name: 'RpgBlogCode' })
+      }
+    }
   },
   components: {}
 }

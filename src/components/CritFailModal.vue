@@ -27,10 +27,7 @@
             <img class="critSite" src="../assets/img/CritFailPort.png" alt="">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-              Navigate to Source Code
-            </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-primary" @click="CritApp">
               Navigate to Site
             </button>
           </div>
@@ -41,10 +38,16 @@
 </template>
 
 <script>
+import router from '../router'
 export default {
   name: 'CritFailModal',
   setup() {
-    return {}
+    return {
+
+      critApp() {
+        router.push({ name: 'CritFail' })
+      }
+    }
   },
   components: {}
 }
@@ -63,7 +66,7 @@ export default {
 
 }
 .critSite{
-  max-height: 25vh;
-  max-width: 25vw;
+  max-height: 45vh;
+  max-width: 45vw;
 }
 </style>
