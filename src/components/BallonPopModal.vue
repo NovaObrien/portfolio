@@ -29,7 +29,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
-              Close
+              Navigate to Source Code
             </button>
             <button type="button" class="btn btn-primary" @click="balloonApp">
               Navigate to App

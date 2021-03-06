@@ -28,10 +28,10 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
-              Close
+              Navigate to Source Code
             </button>
             <button type="button" class="btn btn-primary">
-              Save changes
+              Navigate to Site
             </button>
           </div>
         </div>

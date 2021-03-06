@@ -31,11 +31,11 @@
             <img class="keeprSite" src="../assets/img/KeepPort.png" alt="">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-              Close
+            <button type="button" class="btn btn-primary" data-dismiss="modal" @click="keeprCode">
+              Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-primary" @click="keeprApp">
-              Save changes
+            <button type="button" class="btn btn-success" @click="keeprApp">
+              Navigate to Site
             </button>
           </div>
         </div>
@@ -50,6 +50,9 @@ export default {
   name: 'KeeprModal',
   setup() {
     return {
+      keeprCode() {
+        router.push({ name: 'KeeprCode' })
+      },
       keeprApp() {
         router.push({ name: 'Keepr' })
       }
@@ -71,7 +74,7 @@ export default {
   color: #636E72;
 }
 .keeprSite{
-  max-height: 25vh;
-  max-width: 25vw;
+  max-height: 45vh;
+  max-width: 45vw;
 }
 </style>
