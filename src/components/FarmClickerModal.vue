@@ -24,7 +24,7 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <img class="border" src="../assets/img/pixil-frame-0.png" alt="">
+              <img class="border" src="../assets/img/FarmClickerPort.png" alt="">
             </div>
           </div>
           <div class="modal-footer">
