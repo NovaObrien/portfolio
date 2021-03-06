@@ -29,7 +29,7 @@
               Close
             </button>
             <button type="button" class="btn btn-primary">
-              Save changes
+              Navigate to Site
             </button>
           </div>
         </div>

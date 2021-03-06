@@ -46,6 +46,11 @@ const routes = [
     beforeEnter() { location.href = 'https://keepr-1.herokuapp.com/' }
   },
   {
+    path: '/keepr-code',
+    name: 'KeeprCode',
+    beforeEnter() { location.href = 'https://github.com/NovaObrien/Amazen' }
+  },
+  {
     path: '/critical-failure',
     name: 'CritFail',
     beforeEnter() { location.href = 'https://critical-failure-1.herokuapp.com/' }
@@ -54,6 +59,21 @@ const routes = [
     path: '/kanban',
     name: 'Kanban',
     beforeEnter() { location.href = 'https://kanbandoit.herokuapp.com/' }
+  },
+  {
+    path: '/kanban-code',
+    name: 'KanbanCode',
+    beforeEnter() { location.href = 'https://github.com/JoshKPreston/kanbandoit' }
+  },
+  {
+    path: '/rpg-blog',
+    name: 'RpgBlog',
+    beforeEnter() { location.href = 'https://rpg-blogger.herokuapp.com/#/' }
+  },
+  {
+    path: '/rpg-blog-code',
+    name: 'RpgBlogCode',
+    beforeEnter() { location.href = 'https://github.com/NovaObrien/RPGBlog' }
   },
   {
     path: '/farm-clicker',
@@ -66,14 +86,29 @@ const routes = [
     beforeEnter() { location.href = 'https://novaobrien.github.io/balloon-pop/' }
   },
   {
+    path: '/balloon-code',
+    name: 'BalloonCode',
+    beforeEnter() { location.href = 'https://github.com/NovaObrien/balloon-pop' }
+  },
+  {
     path: '/moody-kitten',
     name: 'MoodyKitten',
     beforeEnter() { location.href = 'https://novaobrien.github.io/Moody-Kittens/' }
   },
   {
+    path: '/moody-kitten-code',
+    name: 'MoodyKittenCode',
+    beforeEnter() { location.href = 'https://github.com/NovaObrien/Moody-Kittens' }
+  },
+  {
     path: '/carpe-mare',
     name: 'CarpeMare',
     beforeEnter() { location.href = 'https://novaobrien.github.io/Weekone-checkpoint/' }
+  },
+  {
+    path: '/carpe-mare-code',
+    name: 'CarpeMareCode',
+    beforeEnter() { location.href = 'https://github.com/NovaObrien/Weekone-checkpoint' }
   }
 
 ]

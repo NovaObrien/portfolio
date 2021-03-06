@@ -29,8 +29,11 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary" @click="keeprApp">
-              Navigate to App
+            <button type="button" class="btn btn-primary" @click="farmCode">
+              Navigate to Source Code
+            </button>
+            <button type="button" class="btn btn-primary" @click="farmApp">
+              Navigate to Site
             </button>
           </div>
         </div>
@@ -62,7 +65,7 @@ export default {
 }
 
 .farmClickerSite{
-  max-height: 25vh;
-max-width: 25vw;
+  max-height: 35vh;
+  max-width: 45vw;
 }
 </style>
