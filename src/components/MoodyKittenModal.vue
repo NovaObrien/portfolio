@@ -27,10 +27,10 @@
             <img class="moodySite" src="../assets/img/MoodyPort.png" alt="">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" @click="moodyCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-success" @click="moodyApp">
               Navigate to Site
             </button>
           </div>
@@ -41,10 +41,18 @@
 </template>
 
 <script>
+import router from '../router'
 export default {
   name: 'MoodyKittenModal',
   setup() {
-    return {}
+    return {
+      moodyApp() {
+        router.push({ name: 'MoodyKitten' })
+      },
+      moodyCode() {
+        router.push({ name: 'MoodyKittenCode' })
+      }
+    }
   },
   components: {}
 }
@@ -62,7 +70,7 @@ export default {
   opacity: 0.50;
 }
 .moodySite{
-  max-height: 25vh;
-  max-width: 25vw;
+  max-height: 45vh;
+  max-width: 45vw;
 }
 </style>

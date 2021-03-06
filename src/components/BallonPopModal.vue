@@ -28,10 +28,10 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" @click="balloonCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-primary" @click="balloonApp">
+            <button type="button" class="btn btn-success" @click="balloonApp">
               Navigate to App
             </button>
           </div>
@@ -49,6 +49,9 @@ export default {
     return {
       balloonApp() {
         router.push({ name: 'Balloon' })
+      },
+      balloonCode() {
+        router.push({ name: 'BalloonCode' })
       }
     }
   },
@@ -68,7 +71,7 @@ export default {
   opacity: 0.50;
 }
 .balloonSite{
-max-height: 25vh;
-max-width: 15vw;
+max-height: 45vh;
+max-width: 45vw;
 }
 </style>

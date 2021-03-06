@@ -81,6 +81,11 @@ const routes = [
     beforeEnter() { location.href = 'https://novaobrien.github.io/Week-Two-Checkpoint/' }
   },
   {
+    path: '/farm-clicker-code',
+    name: 'FarmClickerCode',
+    beforeEnter() { location.href = 'https://github.com/NovaObrien/Week-Two-Checkpoint' }
+  },
+  {
     path: '/balloon',
     name: 'Balloon',
     beforeEnter() { location.href = 'https://novaobrien.github.io/balloon-pop/' }

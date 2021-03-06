@@ -29,10 +29,10 @@
             <img class="carpeMareSite" src="../assets/img/carpeMarePort.png" alt="">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" @click="carpeCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-primary" @click="keeprApp">
+            <button type="button" class="btn btn-success" @click="carpeApp">
               Save changes
             </button>
           </div>
@@ -43,10 +43,18 @@
 </template>
 
 <script>
+import router from '../router'
 export default {
   name: 'CarpeMareModal',
   setup() {
-    return {}
+    return {
+      carpeApp() {
+        router.push({ name: 'CarpeMare' })
+      },
+      carpeCode() {
+        router.push({ name: 'CarpeMareCode' })
+      }
+    }
   },
   components: {}
 }
@@ -60,7 +68,7 @@ export default {
   color: #636E72;
 }
 .carpeMareSite{
-  max-height: 25vh;
-  max-width: 25vw;
+  max-height: 50vh;
+  max-width: 55vw;
 }
 </style>

@@ -43,10 +43,18 @@
 </template>
 
 <script>
+import router from '../router'
 export default {
   name: 'FarmClickerModal',
   setup() {
-    return {}
+    return {
+      farmApp() {
+        router.push({ name: 'FarmClicker' })
+      },
+      farmCode() {
+        router.push({ name: 'FarmClickerCode' })
+      }
+    }
   },
   components: {}
 }
@@ -65,7 +73,7 @@ export default {
 }
 
 .farmClickerSite{
-  max-height: 35vh;
+  max-height: 45vh;
   max-width: 45vw;
 }
 </style>
