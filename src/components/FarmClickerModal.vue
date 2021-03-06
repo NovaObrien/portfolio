@@ -24,7 +24,8 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <img class="border" src="../assets/img/FarmClickerPort.png" alt="">
+              <img class="farmClickerSite border" src="../assets/img/FarmClickerPort.png" alt="">
+              <p>Farming Clicker App was an early project (which is currently being remade) that displayed basic coding methods</p>
             </div>
           </div>
           <div class="modal-footer">
@@ -58,5 +59,10 @@ export default {
 }
 .farmClicker:hover{
   opacity: 0.50;
+}
+
+.farmClickerSite{
+  max-height: 25vh;
+max-width: 25vw;
 }
 </style>

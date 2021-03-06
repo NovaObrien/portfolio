@@ -24,7 +24,7 @@
             </button>
           </div>
           <div class="modal-body">
-            ...
+            <img class="kanSite" src="../assets/img/KanBanPort.png" alt="">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -63,5 +63,9 @@ export default {
   background-repeat: no-repeat;
   opacity: 0.85;
 
+}
+.kanSite{
+  max-height: 25vh;
+  max-width: 25vw;
 }
 </style>

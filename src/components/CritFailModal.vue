@@ -24,7 +24,7 @@
             </button>
           </div>
           <div class="modal-body">
-            ...
+            <img class="critSite" src="../assets/img/CritFailPort.png" alt="">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -61,5 +61,9 @@ export default {
 .critFailLogo:hover{
   opacity: 0.85;
 
+}
+.critSite{
+  max-height: 25vh;
+  max-width: 25vw;
 }
 </style>

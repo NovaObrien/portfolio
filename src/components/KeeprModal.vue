@@ -28,7 +28,7 @@
             </button>
           </div>
           <div class="modal-body">
-            Keepr
+            <img class="keeprSite" src="../assets/img/KeepPort.png" alt="">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -69,5 +69,9 @@ export default {
 }
 #logo:hover{
   color: #636E72;
+}
+.keeprSite{
+  max-height: 25vh;
+  max-width: 25vw;
 }
 </style>

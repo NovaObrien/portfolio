@@ -22,7 +22,7 @@
             </button>
           </div>
           <div class="modal-body">
-            ...
+            <img class="rpgSite" src="../assets/img/rpgBlogPort.png" alt="">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -52,5 +52,9 @@ export default {
 #dice:hover{
   cursor: pointer;
   color: grey;
+}
+.rpgSite{
+  max-height: 45vh;
+  max-width: 25vw;
 }
 </style>
