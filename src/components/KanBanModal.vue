@@ -16,7 +16,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">
+            <h5 class="modal-title text-warning" id="exampleModalCenterTitle">
               Kanbandoit
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -27,16 +27,19 @@
             <div class="row d-flex justify-content-center">
               <img class="kanSite rounded" src="../assets/img/KanBanPort.png" alt="">
             </div>
-            <div class="row">
-              <p>
-              </p>
+            <div class="row text my-3">
+              <div class="col">
+                <p>
+                  Kanbandoit, a kanban style app, was created with one of my peers at BoiseCodeWorks using Scrum for project management. Utilizing a vuejs front end and a mongoDb/express backend this was my first major comprehension of a full-stack application.
+                </p>
+              </div>
             </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" @click="kanCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-success" @click="kanApp">
+            <button type="button" class="btn btn-warning" @click="kanApp">
               Navigate to Site
             </button>
           </div>
@@ -81,5 +84,8 @@ export default {
 .kanSite{
   max-height: 35vh;
   max-width: 35vw;
+}
+.text{
+   font-family: 'Nanum Myeongjo', serif;
 }
 </style>

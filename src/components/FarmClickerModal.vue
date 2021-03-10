@@ -15,7 +15,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">
+            <h5 class="modal-title text-warning" id="exampleModalCenterTitle">
               Farming clicker
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -27,14 +27,16 @@
               <img class="farmClickerSite rounded" src="../assets/img/FarmClickerPort.png" alt="">
             </div>
             <div class="row">
-              <p>Farming Clicker App was an early project (which is currently being remade) that displayed basic coding methods and funciton usage</p>
+              <div class="col text">
+                <p>Farming Clicker was an early project (which is currently being remade) that displayed basic coding methods and function usage.</p>
+              </div>
             </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" @click="farmCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-primary" @click="farmApp">
+            <button type="button" class="btn btn-warning" @click="farmApp">
               Navigate to Site
             </button>
           </div>
@@ -77,5 +79,8 @@ export default {
 .farmClickerSite{
   max-height: 35vh;
   max-width: 35vw;
+}
+.text{
+   font-family: 'Nanum Myeongjo', serif;
 }
 </style>

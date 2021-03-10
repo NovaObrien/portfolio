@@ -18,7 +18,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">
+            <h5 class="modal-title text-warning" id="exampleModalCenterTitle">
               Carpe Mare
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -30,15 +30,18 @@
               <img class="carpeMareSite rounded " src="../assets/img/carpeMarePort.png" alt="">
             </div>
             <div class="row">
-              <p>
-              </p>
+              <div class="col text my-3">
+                <p>
+                  Carpe Mare was my first app at BoiseCodeWorks only utilizing basic html and css. Is mobile friendly.
+                </p>
+              </div>
             </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" @click="carpeCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-success" @click="carpeApp">
+            <button type="button" class="btn btn-warning" @click="carpeApp">
               Save changes
             </button>
           </div>
@@ -76,5 +79,8 @@ export default {
 .carpeMareSite{
   max-height: 35vh;
   max-width: 35vw;
+}
+.text{
+   font-family: 'Nanum Myeongjo', serif;
 }
 </style>

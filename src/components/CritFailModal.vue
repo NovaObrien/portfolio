@@ -16,7 +16,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">
+            <h5 class="modal-title text-warning" id="exampleModalCenterTitle">
               Critical Failure
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -28,8 +28,9 @@
               <img class="critSite rounded" src="../assets/img/CritFailPort.png" alt="">
             </div>
             <div class="row">
-              <div class="col">
+              <div class="col text my-3">
                 <p>
+                  Critical Failure is a Full-stack application that was made with three of my peers at BoiseCodeworks, using Scrum as our project management. Utilizing a vuejs front end and express/mongodb backend, we were able to create a working capstone over the course of three weeks. I added extra features such as a working chat and showing active players using sockets. This App is not designed to be mobile friendly. (The owner has made the source code private so I can’t link the source code)
                 </p>
               </div>
             </div>
@@ -76,5 +77,8 @@ export default {
 .critSite{
   max-height: 35vh;
   max-width: 35vw;
+}
+.text{
+   font-family: 'Nanum Myeongjo', serif;
 }
 </style>

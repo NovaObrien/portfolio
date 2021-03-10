@@ -15,7 +15,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">
+            <h5 class="modal-title text-warning" id="exampleModalCenterTitle">
               Balloon Pop
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -26,12 +26,17 @@
             <div class="row d-flex justify-content-center">
               <img class="balloonSite rounded" src="../assets/img/Balloon.png" alt="">
             </div>
+            <div class="row">
+              <div class="col text my-3">
+                <p>Balloon Pop was the first app I was required to make to get into BoiseCodeWorks Certificate Program.</p>
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" @click="balloonCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-success" @click="balloonApp">
+            <button type="button" class="btn btn-warning" @click="balloonApp">
               Navigate to App
             </button>
           </div>
@@ -73,5 +78,8 @@ export default {
 .balloonSite{
 max-height: 35vh;
   max-width: 35vw;
+}
+.text{
+   font-family: 'Nanum Myeongjo', serif;
 }
 </style>

@@ -16,7 +16,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">
+            <h5 class="modal-title text-warning" id="exampleModalCenterTitle">
               Moody Kittens
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -27,12 +27,17 @@
             <div class="row d-flex justify-content-center">
               <img class="moodySite rounded" src="../assets/img/MoodyPort.png" alt="">
             </div>
+            <div class="row">
+              <div class="col text my-3">
+                <p>Moody Kittens was a scholarship app for BoiseCodeWorks.</p>
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" @click="moodyCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-success" @click="moodyApp">
+            <button type="button" class="btn btn-warning" @click="moodyApp">
               Navigate to Site
             </button>
           </div>
@@ -74,5 +79,8 @@ export default {
 .moodySite{
   max-height: 35vh;
   max-width: 35vw;
+}
+.text{
+   font-family: 'Nanum Myeongjo', serif;
 }
 </style>

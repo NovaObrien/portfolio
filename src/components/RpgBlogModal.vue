@@ -14,7 +14,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">
+            <h5 class="modal-title text-warning" id="exampleModalCenterTitle">
               Rpg-Blogger
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -22,13 +22,20 @@
             </button>
           </div>
           <div class="modal-body">
-            <img class="rpgSite" src="../assets/img/rpgBlogPort.png" alt="">
+            <div class="row">
+              <div class="col">
+                <img class="rpgSite" src="../assets/img/rpgBlogPort.png" alt="">
+              </div>
+              <div class="col text">
+                <p>RPG-Blogger is a blog style app that was remade after my project at BoiseCodeWorks. Rebuilt with a working mongoDb/express backend and a revamped front end utilizing vuejs. This app was designed with the intent to be a mobile app so it may feel funky on your personal computer.</p>
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" @click="rpgCode">
               Navigate to Source Code
             </button>
-            <button type="button" class="btn btn-success" @click="rpgApp">
+            <button type="button" class="btn btn-warning" @click="rpgApp">
               Navigate to Site
             </button>
           </div>
@@ -64,5 +71,8 @@ export default {
 .rpgSite{
   max-height: 45vh;
   max-width: 25vw;
+}
+.text{
+   font-family: 'Nanum Myeongjo', serif;
 }
 </style>
