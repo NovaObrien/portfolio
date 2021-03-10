@@ -51,6 +51,6 @@ a:hover {
   text-transform: uppercase;
 }
 .nav-item .nav-link.router-link-exact-active{
-  color: var(--success);
+  color: var(--warning);
 }
 </style>

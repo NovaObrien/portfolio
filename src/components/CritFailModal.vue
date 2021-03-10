@@ -27,9 +27,15 @@
             <div class="row d-flex justify-content-center">
               <img class="critSite rounded" src="../assets/img/CritFailPort.png" alt="">
             </div>
+            <div class="row">
+              <div class="col">
+                <p>
+                </p>
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary" @click="CritApp">
+            <button type="button" class="btn btn-warning" @click="CritApp">
               Navigate to Site
             </button>
           </div>

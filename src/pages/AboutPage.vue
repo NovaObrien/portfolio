@@ -1,83 +1,153 @@
 <template>
-  <div class="about container-fluid">
+  <div class="about-page container-fluid">
     <div class="row">
-      <div class="col-4">
-        <H1>Hey, I'm Nova!</H1>
-        <h3 class="mb-5">
+      <div class="col">
+        <h1 class="d-flex justify-content-center">
+          Hey, I'm Nova!
+        </h1>
+        <h3 class="d-flex justify-content-center mb-5 text-warning">
           Welcome to my about page!
         </h3>
-        <h2 class="mt-5">
-          Software Developer
-        </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <img class="portImg" src="../assets/img/SeflPort2.png" alt="">
+      </div>
+    </div>
+    <div class="row mt-5 d-flex justify-content-center">
+      <h2>Software Developer</h2>
+    </div>
+    <div class="row mt-5">
+      <div class="col-2"></div>
+      <div class="col">
         <h5 class="text-warning">
-          I always strive to discover new skills!
+          What I've learned thus far
         </h5>
-        <p>
-          VueJs, C# .Net, Javascript, HTML CSS, Actionscript
-        </p>
-        <p>
-          Scrum project management, timeline development, and execution of set goals
-        </p>
-        <p>
-          Partner Programing, GitHub Source Control, State Machine
-        </p>
-        <p>
-          Debugging, flow charts, diagrams, MVC, and MVP
-        </p>
-
-        <p>
-          MySQL SQL, MongoDB, Express, Mongoose, Nuget, dapper
-        </p>
-
-        <p>
-          Node.js, Auth0, Sockets
-        </p>
-        <p>
-          UE4 Blueprints, Zbrush, Graphic Design, Animation, StoryTelling, UI, and UX
-        </p>
-        <p>
-          Adobe Photoshop, Illustrator, and Animate
-        </p>
+        <ul>
+          <li>
+            <p>
+              VueJs, C# .Net, Javascript, HTML CSS, Actionscript
+            </p>
+          </li>
+          <li>
+            <p>
+              Scrum project management, timeline development, and execution of set goals
+            </p>
+          </li>
+          <li>
+            <p>
+              Partner Programing, GitHub Source Control, State Machine
+            </p>
+          </li>
+          <li>
+            <p>
+              Debugging, flow charts, diagrams, MVC, and MVP
+            </p>
+          </li>
+          <li>
+            <p>
+              MySQL SQL, MongoDB, Express, Mongoose, Nuget, dapper
+            </p>
+          </li>
+          <li>
+            <p>
+              Node.js, Auth0, Sockets
+            </p>
+          </li>
+          <li>
+            <p>
+              UE4 Blueprints, Zbrush, Graphic Design, Animation, StoryTelling, UI, and UX
+            </p>
+          </li>
+          <li>
+            <p>
+              Adobe Photoshop, Illustrator, and Animate
+            </p>
+          </li>
+        </ul>
       </div>
-      <div class="col-8">
-        <img src="../assets/img/Family3.jpg" alt="">
+      <div class="col-1"></div>
+      <div class="col">
+        <h5 class="text-warning">
+          I always strive to discover new skills! I'm currently studying...
+        </h5>
+        <ul>
+          <li>
+            <p>
+              Artificial Inteligence
+            </p>
+          </li>
+          <li>
+            <p>
+              Calculous
+            </p>
+          </li>
+          <li>
+            <p>
+              Linear Algebra
+            </p>
+          </li>
+          <li>
+            <p>
+              C++
+            </p>
+          </li>
+          <li>
+            <p>
+              Python
+            </p>
+          </li>
+        </ul>
       </div>
-      Experience
+      <div class="col-2"></div>
+    </div>
 
-      Software Development Student, CodeWorks Sept 2020- 2021
-      Certificate of Completion
-      Junior Developer, full time bootcamp, fullstack web development course, fullstack applications, team development, scrum
-
-      Games, Interactive Media, Mobile Technologies (GIMM), BSU August 2016-2018
-      Junior Developer, Animation, developed interactive apps (heavily focused on user experience)
-      Worked solo and with teams
-
-      Red Bench Pizza - July to December 2020
-      Line Cook
-      Working with a team under high stress situations was a great experience to get me out of my comfort zone. Pushed my communication skills, and attention to detail skills
-
-      Tamarack Village Market  - December to April 2020
-      Market Culinarian
-      Helped open the new store at Tamarack, learned how to make lates, gourmet paninis, and looked to make connections with the ever so happy locals
-
-      WhiteTail Greeting House - May to October 2019
-      Gate House Security Head
-      Had to handle vip members access in and out of the subdivision. Worked with large events that happened daily, groups going golfing, concerts, and/or construction
-
-      Insight Pest Solutions-June 2016 to August 2016
-      Direct Sales Representative
-      Went door to door selling pest control, interacting with the local communities
-
-      Letter of Recommendation
-      I am pleased to write a letter of recommendation for Nova O'Brien, holding a Certificate of Completion for the Full Stack Immersive Course from CodeWorks. It was an honor to be his primary instructor on his journey to becoming a developer.
-      I enjoyed our discussions for solutions on the many challenges he was able to overcome and I was impressed by the completion of stretch goals on assignments. Nova always demonstrated a calm demeanor and eagerness to learn, including a drive to push beyond what was the minimum expectation. He was thoughtful, professional, and diligent when engaging with peers to accomplish their given tasks.
-      Throughout the course, I can say he was able to bring success and value to the different teams and other students he worked with. I know he will continue to be a dedicated student and a competent professional. I recommend him without any reservations as I know him to be a highly skilled and qualified candidate for any developer position. Without a doubt his drive will bring success to any team he is on.
-      Sincerely,
-      Darryl Kilzer
-      Full Stack Immersive Instructor
-      CodeWorks
-      208-391-5162
-      darryl@boisecodeworks.com
+    <div class="row mt-5">
+      <div class="col-2">
+      </div>
+      <div class="col">
+        <div class="row">
+          <img class="famImg rounded" src="../assets/img/Family3.jpg" alt="">
+          <div class="col-2">
+            <h5 class="text-warning">
+              My Family
+            </h5>
+            <p>
+              The other half to my chaos is this flower of sunshine! Wouldn't be who I am without her support in life.
+            </p>
+          </div>
+          <div class="col"></div>
+          <img class="famImg rounded" src="../assets/img/AngelsLanding.jpg" alt="">
+          <div class="col-3">
+            <h5 class="text-warning">
+              Adventure & Exploration
+            </h5>
+            <p>
+              Some of my fondest memories are with others while trecking into mountains, long drives with good music, and/or finding the perfect view to sit and relax together with. (one of my fonder memories was here with my Father clibming Angels Landing.)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <div class="row my-5">
+      <div class="col-3">
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col-3">
+            <h5 class="text-warning">
+              CodeWorks
+            </h5>
+            <p>
+              A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds of amazing people and learned how to take my skills into the feild
+            </p>
+          </div>
+          <img class="famImg rounded" src="../assets/img/codeworks.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-2"></div>
     </div>
   </div>
 </template>
@@ -88,7 +158,10 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-img{
-  max-height: 50vh;
+.portImg{
+height: 50vh;
+}
+.famImg{
+  max-height: 35vh;
 }
 </style>
