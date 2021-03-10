@@ -28,7 +28,14 @@
             </button>
           </div>
           <div class="modal-body">
-            <img class="keeprSite" src="../assets/img/KeepPort.png" alt="">
+            <div class="row d-flex justify-content-center">
+              <img class="keeprSite" src="../assets/img/KeepPort.png" alt="">
+            </div>
+            <div class="row text my-3">
+              <h5>
+                Keepr is an instagram style application that utalizes a C# backend and a mysql database
+              </h5>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" @click="keeprCode">
@@ -74,7 +81,10 @@ export default {
   color: #636E72;
 }
 .keeprSite{
-  max-height: 45vh;
-  max-width: 45vw;
+  max-height: 35vh;
+  max-width: 35vw;
+}
+.text{
+   font-family: 'Nanum Myeongjo', serif;
 }
 </style>
