@@ -24,7 +24,13 @@
             </button>
           </div>
           <div class="modal-body">
-            <img class="kanSite" src="../assets/img/KanBanPort.png" alt="">
+            <div class="row d-flex justify-content-center">
+              <img class="kanSite rounded" src="../assets/img/KanBanPort.png" alt="">
+            </div>
+            <div class="row">
+              <p>
+              </p>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" @click="kanCode">
@@ -73,7 +79,7 @@ export default {
 
 }
 .kanSite{
-  max-height: 45vh;
-  max-width: 45vw;
+  max-height: 35vh;
+  max-width: 35vw;
 }
 </style>

@@ -26,7 +26,13 @@
             </button>
           </div>
           <div class="modal-body">
-            <img class="carpeMareSite" src="../assets/img/carpeMarePort.png" alt="">
+            <div class="row d-flex justify-content-center">
+              <img class="carpeMareSite rounded " src="../assets/img/carpeMarePort.png" alt="">
+            </div>
+            <div class="row">
+              <p>
+              </p>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" @click="carpeCode">
@@ -68,7 +74,7 @@ export default {
   color: #636E72;
 }
 .carpeMareSite{
-  max-height: 50vh;
-  max-width: 55vw;
+  max-height: 35vh;
+  max-width: 35vw;
 }
 </style>

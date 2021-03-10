@@ -24,7 +24,9 @@
             </button>
           </div>
           <div class="modal-body">
-            <img class="moodySite" src="../assets/img/MoodyPort.png" alt="">
+            <div class="row d-flex justify-content-center">
+              <img class="moodySite rounded" src="../assets/img/MoodyPort.png" alt="">
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal" @click="moodyCode">
@@ -70,7 +72,7 @@ export default {
   opacity: 0.50;
 }
 .moodySite{
-  max-height: 45vh;
-  max-width: 45vw;
+  max-height: 35vh;
+  max-width: 35vw;
 }
 </style>

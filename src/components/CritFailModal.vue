@@ -24,7 +24,9 @@
             </button>
           </div>
           <div class="modal-body">
-            <img class="critSite" src="../assets/img/CritFailPort.png" alt="">
+            <div class="row d-flex justify-content-center">
+              <img class="critSite rounded" src="../assets/img/CritFailPort.png" alt="">
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" @click="CritApp">
@@ -66,7 +68,7 @@ export default {
 
 }
 .critSite{
-  max-height: 45vh;
-  max-width: 45vw;
+  max-height: 35vh;
+  max-width: 35vw;
 }
 </style>

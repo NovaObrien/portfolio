@@ -23,9 +23,11 @@
             </button>
           </div>
           <div class="modal-body">
+            <div class="row d-flex justify-content-center">
+              <img class="farmClickerSite rounded" src="../assets/img/FarmClickerPort.png" alt="">
+            </div>
             <div class="row">
-              <img class="farmClickerSite border" src="../assets/img/FarmClickerPort.png" alt="">
-              <p>Farming Clicker App was an early project (which is currently being remade) that displayed basic coding methods</p>
+              <p>Farming Clicker App was an early project (which is currently being remade) that displayed basic coding methods and funciton usage</p>
             </div>
           </div>
           <div class="modal-footer">
@@ -73,7 +75,7 @@ export default {
 }
 
 .farmClickerSite{
-  max-height: 45vh;
-  max-width: 45vw;
+  max-height: 35vh;
+  max-width: 35vw;
 }
 </style>

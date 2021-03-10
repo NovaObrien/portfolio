@@ -29,7 +29,7 @@
           </div>
           <div class="modal-body">
             <div class="row d-flex justify-content-center">
-              <img class="keeprSite" src="../assets/img/KeepPort.png" alt="">
+              <img class="keeprSite rounded" src="../assets/img/KeepPort.png" alt="">
             </div>
             <div class="row text my-3">
               <h5>

@@ -23,8 +23,8 @@
             </button>
           </div>
           <div class="modal-body">
-            <div class="row border">
-              <img class="balloonSite" src="../assets/img/Balloon.png" alt="">
+            <div class="row d-flex justify-content-center">
+              <img class="balloonSite rounded" src="../assets/img/Balloon.png" alt="">
             </div>
           </div>
           <div class="modal-footer">
@@ -71,7 +71,7 @@ export default {
   opacity: 0.50;
 }
 .balloonSite{
-max-height: 45vh;
-max-width: 45vw;
+max-height: 35vh;
+  max-width: 35vw;
 }
 </style>
