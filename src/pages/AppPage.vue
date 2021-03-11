@@ -5,33 +5,22 @@
         Full-Stack Applications
       </h3>
     </div>
-    <div class="row">
-      <div class="col-3">
-      </div>
-      <div class="col d-flex align-items-center justify-content-between">
-        <keepr-modal />
-        <crit-fail-modal />
-        <kan-ban-modal />
-        <rpg-blog-modal />
-      </div>
-      <div class="col-3"></div>
+    <div class="row fullStack">
+      <keepr-modal class=" ml-4 kan" />
+      <crit-fail-modal class="kan" />
+      <kan-ban-modal class="mr-4 kan" />
+      <rpg-blog-modal class="ml-4 mr-3 kan" />
     </div>
     <div class="row d-flex justify-content-center mt-5" id="style">
       <h3 class="text-warning">
         Early Applications
       </h3>
     </div>
-    <div class="row ">
-      <div class="col-3"></div>
-      <div class="col d-flex align-items-center justify-content-between">
-        <farm-clicker-modal />
-        <ballon-pop-modal />
-        <moody-kitten-modal />
-        <carpe-mare-modal />
-      </div>
-      <div class="col-3"></div>
-      <div>
-      </div>
+    <div class="row earlyApp">
+      <farm-clicker-modal class="kan mar" />
+      <ballon-pop-modal class=" kan mar" />
+      <moody-kitten-modal class="kan mar" />
+      <carpe-mare-modal class="kan mar" />
     </div>
   </div>
 </template>
@@ -66,6 +55,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@media (max-width: 575.98px) {
+  .mar{
+   justify-content: center;
+  }
+}
+.kan{
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .home{
   text-align: center;
   user-select: none;
@@ -85,5 +83,13 @@ export default {
     color: #636E72;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 100px;
+}
+
+.fullStack{
+  justify-content: center;
+
+}
+.earlyApp{
+  justify-content: center;
 }
 </style>

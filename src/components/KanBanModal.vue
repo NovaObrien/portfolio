@@ -69,11 +69,17 @@ export default {
 
 <style lang="scss" scoped>
 .kanbanLogo{
-  max-width: 25vh;
-  min-width: 25vh;
-  max-height: 25vh;
-  min-height: 25vh;
+  min-width: 10vw;
+  max-height: 35vh;
+  max-width: 35vw;
   cursor: pointer;
+}
+@media (max-width: 575.98px) {
+  .kanbanLogo{
+    min-width: 35vw;
+    max-height: 35vh;
+    max-width: 35vw;
+  }
 }
 .kanbanLogo:hover{
   // background-image: linear-gradient(180deg, yellow, red );
@@ -84,6 +90,11 @@ export default {
 .kanSite{
   max-height: 35vh;
   max-width: 35vw;
+}
+@media (max-width: 575.98px) {
+  .kanSite{
+    max-width: 75vw;
+  }
 }
 .text{
    font-family: 'Nanum Myeongjo', serif;

@@ -76,9 +76,21 @@ export default {
 .moodyKitten:hover{
   opacity: 0.50;
 }
+@media (max-width: 575.98px) {
+  .moodyKitten{
+    max-width: 45vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
 .moodySite{
   max-height: 35vh;
   max-width: 35vw;
+}
+@media (max-width: 575.98px) {
+  .moodySite{
+    max-width: 75vw;
+  }
 }
 .text{
    font-family: 'Nanum Myeongjo', serif;

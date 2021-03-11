@@ -114,7 +114,7 @@
               My Family
             </h5>
             <p>
-              The other half to my chaos is this flower of sunshine! Wouldn't be who I am without her support in life.
+              My other half is this wonderful human.
             </p>
           </div>
           <div class="col"></div>

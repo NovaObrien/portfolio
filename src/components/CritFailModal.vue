@@ -70,6 +70,12 @@ export default {
   min-height: 35vh;
   cursor: pointer;
 }
+@media (max-width: 575.98px) {
+  .critFailLogo{
+    margin-top: 1vh;
+    margin-left: 15%
+  }
+}
 .critFailLogo:hover{
   opacity: 0.85;
 
@@ -77,6 +83,11 @@ export default {
 .critSite{
   max-height: 35vh;
   max-width: 35vw;
+}
+@media (max-width: 575.98px) {
+  .critSite{
+    max-width: 75vw;
+  }
 }
 .text{
    font-family: 'Nanum Myeongjo', serif;

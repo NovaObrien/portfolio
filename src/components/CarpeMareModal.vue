@@ -80,6 +80,11 @@ export default {
   max-height: 35vh;
   max-width: 35vw;
 }
+@media (max-width: 575.98px) {
+  .carpeMareSite{
+    max-width: 75vw;
+  }
+}
 .text{
    font-family: 'Nanum Myeongjo', serif;
 }

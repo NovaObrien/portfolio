@@ -72,6 +72,17 @@ export default {
   max-height: 45vh;
   max-width: 25vw;
 }
+@media (max-width: 575.98px) {
+  .rpgSite{
+    margin-left: 75px;
+    max-width: 75vw;
+  }
+}
+@media (max-width: 575.98px) {
+  #dice{
+    max-width: 25vw;
+  }
+}
 .text{
    font-family: 'Nanum Myeongjo', serif;
 }

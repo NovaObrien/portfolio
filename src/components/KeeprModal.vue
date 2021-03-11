@@ -82,9 +82,20 @@ export default {
 #logo:hover{
   color: #636E72;
 }
+@media (max-width: 575.98px) {
+  #logo{
+    font-size: 70px;
+    border: 10px solid;
+  }
+}
 .keeprSite{
   max-height: 35vh;
   max-width: 35vw;
+}
+@media (max-width: 575.98px) {
+  .keeprSite{
+    max-width: 75vw;
+  }
 }
 .text{
    font-family: 'Nanum Myeongjo', serif;
