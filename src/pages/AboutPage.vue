@@ -18,8 +18,7 @@
     <div class="row mt-5 d-flex justify-content-center">
       <h2>Software Developer</h2>
     </div>
-    <div class="row mt-5">
-      <div class="col-2"></div>
+    <div class="row mt-5 mx-auto">
       <div class="col">
         <h5 class="text-warning">
           What I've learned thus far
@@ -67,7 +66,6 @@
           </li>
         </ul>
       </div>
-      <div class="col-1"></div>
       <div class="col">
         <h5 class="text-warning">
           I always strive to discover new skills! I'm currently studying...
@@ -80,7 +78,7 @@
           </li>
           <li>
             <p>
-              Calculous
+              Differential Calculus
             </p>
           </li>
           <li>
@@ -98,56 +96,45 @@
               Python
             </p>
           </li>
+          <li>
+            <p>
+              Lazy Loading in C#
+            </p>
+          </li>
         </ul>
       </div>
-      <div class="col-2"></div>
-    </div>
 
-    <div class="row mt-5">
-      <div class="col-2">
-      </div>
-      <div class="col">
-        <div class="row">
-          <img class="famImg rounded" src="../assets/img/Family3.jpg" alt="">
-          <div class="col-2">
-            <h5 class="text-warning">
-              My Family
-            </h5>
-            <p>
-              My other half is this wonderful human.
-            </p>
-          </div>
-          <div class="col"></div>
-          <img class="famImg rounded" src="../assets/img/AngelsLanding.jpg" alt="">
-          <div class="col-3">
-            <h5 class="text-warning">
-              Adventure & Exploration
-            </h5>
-            <p>
-              Some of my fondest memories are with others while trecking into mountains, long drives with good music, and/or finding the perfect view to sit and relax together with. (one of my fonder memories was here with my Father clibming Angels Landing.)
-            </p>
-          </div>
+      <div class="row mt-5 d-flex justify-content-center">
+        <img class="famImg rounded" src="../assets/img/Family3.jpg" alt="">
+        <div class="col-2">
+          <h5 class="text-warning">
+            My Family
+          </h5>
+          <p>
+            My other half is this wonderful human.
+          </p>
+        </div>
+        <img class="angelImg rounded" src="../assets/img/AngelsLanding.jpg" alt="">
+        <div class="col">
+          <h5 class="text-warning">
+            Adventure & Exploration
+          </h5>
+          <p>
+            Some of my fondest memories are trecking into mountains, long drives with good music, and discovering new sights. (one of my fonder memories was climbing Angels Landing here in Zion with my old man)
+          </p>
         </div>
       </div>
-      <div class="col-2"></div>
-    </div>
-    <div class="row my-5">
-      <div class="col-3">
-      </div>
-      <div class="col">
-        <div class="row">
-          <div class="col-3">
-            <h5 class="text-warning">
-              CodeWorks
-            </h5>
-            <p>
-              A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds of amazing people and learned how to take my skills into the feild
-            </p>
-          </div>
-          <img class="famImg rounded" src="../assets/img/codeworks.jpg" alt="">
+      <div class="row d-flex justify-content-center my-5">
+        <div class="col">
+          <h5 class="text-warning">
+            CodeWorks
+          </h5>
+          <p>
+            A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and some amazing people, and discovered what it means to be a software developer.
+          </p>
         </div>
+        <img class="famImg rounded" src="../assets/img/codeworks.jpg" alt="">
       </div>
-      <div class="col-2"></div>
     </div>
   </div>
 </template>
@@ -163,5 +150,18 @@ height: 50vh;
 }
 .famImg{
   max-height: 35vh;
+}
+.angelImg{
+  max-height: 35vh;
+}
+@media (max-width: 575.98px) {
+  .famImg{
+    max-height: 45vw;
+  }
+}
+@media (max-width: 575.98px) {
+  p{
+    font-size: 12px;
+  }
 }
 </style>
