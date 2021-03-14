@@ -73,6 +73,11 @@
         <ul>
           <li>
             <p>
+              Unit Testing
+            </p>
+          </li>
+          <li>
+            <p>
               Artificial Inteligence
             </p>
           </li>
