@@ -1,13 +1,14 @@
 <template>
+  <shooting-stars />
   <div class="about-page container-fluid">
     <div class="row">
       <div class="col">
-        <h1 class="d-flex justify-content-center">
-          Hey, I'm Nova!
+        <h4 class="d-flex justify-content-center">
+          Hey, look it's me!
+        </h4>
+        <h1 class="d-flex justify-content-center mb-5 text-warning">
+          Nova
         </h1>
-        <h3 class="d-flex justify-content-center mb-5 text-warning">
-          Welcome to my about page!
-        </h3>
       </div>
     </div>
     <div class="row">
@@ -16,7 +17,7 @@
       </div>
     </div>
     <div class="row mt-5 d-flex justify-content-center">
-      <h2>Software Developer</h2>
+      <h1>Software Developer</h1>
     </div>
     <div class="row mt-5 mx-auto">
       <div class="col">
@@ -145,7 +146,9 @@
 </template>
 
 <script>
+import ShootingStars from '../components/ShootingStars.vue'
 export default {
+  components: { ShootingStars },
   name: 'AboutPage'
 }
 </script>
