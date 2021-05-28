@@ -147,6 +147,11 @@
       </div>
       <img class="famImg rounded" src="../assets/img/codeworks.jpg" alt="">
     </div>
+    <div class="row d-flex justify-content-center">
+      <router-link :to="{name: 'Apps'}">
+        <p>Check out the Apps Page</p>
+      </router-link>
+    </div>
   </div>
 </template>
 

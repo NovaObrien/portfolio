@@ -56,9 +56,11 @@ a:hover {
   color: var(--warning);
 }
 
-@media (min-width: 481px) {
+@media (min-width: 600px) {
   .nav-link{
     font-size: 17px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
 }
