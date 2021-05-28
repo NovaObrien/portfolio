@@ -1,5 +1,6 @@
 <template>
   <div class="star-page">
+    <shooting-stars />
   </div>
 </template>
 

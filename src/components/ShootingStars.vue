@@ -1,6 +1,6 @@
 <template>
   <div class="shooting-stars">
-    <canvas ref="canvas" width="560" height="360"></canvas>
+    <canvas ref="canvas" width="1280" height="600"></canvas>
   </div>
 </template>
 
@@ -13,11 +13,10 @@ export default {
     const canvas = ref(null)
     let ctx = ref(null)
     onMounted(() => {
-      // canvas = ref('canvas1')
       ctx = canvas.value.getContext('2d')
 
-      shootingStarService.init(canvas)
-      shootingStarService.update(ctx, canvas)
+      shootingStarService.init(canvas, ctx)
+      // shootingStarService.animate(ctx, canvas)
     })
     return {
       canvas,
@@ -29,6 +28,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #canvas1 {
   position: absolute;
   top: 0;
