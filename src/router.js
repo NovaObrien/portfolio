@@ -6,6 +6,11 @@ function loadPage(page) {
 
 const routes = [
   {
+    path: '/Star',
+    name: 'StarPage',
+    component: loadPage('StarPage')
+  },
+  {
     path: '/',
     name: 'Apps',
     component: loadPage('AppPage')

@@ -1,5 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg justify-content-center nav-item">
+    <router-link :to="{ name: 'StarPage' }" class="nav-link">
+      Star
+    </router-link>
     <router-link :to="{ name: 'Apps' }" class="nav-link">
       Apps
     </router-link>
