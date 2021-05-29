@@ -2,7 +2,7 @@
   <div class="about-page container-fluid">
     <div class="row">
       <div class="col">
-        <h1 class="d-flex justify-content-center">
+        <h1 class="d-flex justify-content-center mt-4 text-light">
           Nova O'Brien
         </h1>
         <h3 class="d-flex justify-content-center mb-5 text-warning">
@@ -15,57 +15,61 @@
         <img class="portImg" src="../assets/img/SeflPort2.png" alt="">
       </div>
     </div>
-    <div class="row mt-5 d-flex justify-content-center">
+    <div class="row mt-5 d-flex justify-content-center text-light">
       <h2>Software Developer</h2>
     </div>
     <div class="row mt-5">
-      <h5 class="text-warning">
-        Skills
-      </h5>
+      <div class="col">
+        <h5 class="text-warning">
+          Skills
+        </h5>
+      </div>
     </div>
     <div class="row mt-2">
-      <ul>
-        <li>
-          <p>
-            VueJs, C# .Net, Javascript, HTML CSS, Actionscript
-          </p>
-        </li>
-        <li>
-          <p>
-            Scrum project management
-          </p>
-        </li>
-        <li>
-          <p>
-            Partner Programing, GitHub Source Control, State Machine
-          </p>
-        </li>
-        <li>
-          <p>
-            Debugging, flow charts, diagrams, MVC, and MVP
-          </p>
-        </li>
-        <li>
-          <p>
-            MySQL SQL, MongoDB
-          </p>
-        </li>
-        <li>
-          <p>
-            Express, Mongoose, Nuget, Dapper, Node.js, Auth0, Sockets
-          </p>
-        </li>
-        <li>
-          <p>
-            UE4 Blueprints, Zbrush, Graphic Design, Animation, StoryTelling, UI, and UX
-          </p>
-        </li>
-        <li>
-          <p>
-            Adobe Photoshop, Illustrator, and Animate
-          </p>
-        </li>
-      </ul>
+      <div class="col text-light">
+        <ul>
+          <li>
+            <p>
+              VueJs, C# .Net, Javascript, HTML CSS, Actionscript
+            </p>
+          </li>
+          <li>
+            <p>
+              Scrum project management
+            </p>
+          </li>
+          <li>
+            <p>
+              Partner Programing, GitHub Source Control, State Machine
+            </p>
+          </li>
+          <li>
+            <p>
+              Debugging, flow charts, diagrams, MVC, and MVP
+            </p>
+          </li>
+          <li>
+            <p>
+              MySQL SQL, MongoDB
+            </p>
+          </li>
+          <li>
+            <p>
+              Express, Mongoose, Nuget, Dapper, Node.js, Auth0, Sockets
+            </p>
+          </li>
+          <li>
+            <p>
+              UI and UX
+            </p>
+          </li>
+          <li>
+            <p>
+              Adobe Photoshop, Illustrator, and Animate
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="row mt-4">
       <h5 class="text-warning">
@@ -109,10 +113,10 @@
             Lazy Loading in C#
           </p>
         </li>
-        <li>
+        <!-- <li>
           <p>
           </p>
-        </li>
+        </li> -->
       </ul>
     </div>
 
@@ -164,6 +168,9 @@ export default {
 // ==========>
 // Mobile
 // =========
+  h1{
+    font-family: 'Limelight', cursive;
+  }
  p{
     font-size: 12px;
   }
