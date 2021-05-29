@@ -12,7 +12,7 @@
     </div>
     <div class="row">
       <div class="col d-flex justify-content-center">
-        <img class="portImg" src="../assets/img/SeflPort2.png" alt="">
+        <img class="portImg shadow-lg border border-warning rounded-circle" src="../assets/img/SeflPort2.png" alt="">
       </div>
     </div>
     <div class="row mt-5 d-flex justify-content-center text-light">

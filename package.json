@@ -10,7 +10,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
-    "gsap": "^3.6.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "socket.io-client": "^2.2.0",
