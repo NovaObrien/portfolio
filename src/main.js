@@ -8,11 +8,10 @@ import jquery from 'jquery'
 import popper from 'popper.js'
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
-import VueParticles from 'vue-particles'
 
 const root = createApp(App)
 registerGlobalComponents(root)
 
 root
-  .use(router, bootstrap, jquery, popper, VueParticles)
+  .use(router, bootstrap, jquery, popper)
   .mount('#app')
