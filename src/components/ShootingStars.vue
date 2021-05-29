@@ -1,6 +1,6 @@
 <template>
   <div class="shooting-stars">
-    <canvas ref="canvas" width="1280" height="600"></canvas>
+    <canvas id="myCanvas" width="1280" height="600"></canvas>
   </div>
 </template>
 
@@ -10,13 +10,14 @@ import { shootingStarService } from '../services/ShootingStarService'
 export default {
   name: 'ShootingStars',
   setup() {
-    const canvas = ref(null)
+    let canvas = null
     let ctx = ref(null)
     onMounted(() => {
-      ctx = canvas.value.getContext('2d')
+      canvas = document.getElementById('myCanvas')
+      ctx = canvas.getContext('2d')
 
-      shootingStarService.init(canvas, ctx)
-      // shootingStarService.animate(ctx, canvas)
+      shootingStarService.init(canvas)
+      shootingStarService.animate(ctx, canvas)
     })
     return {
       canvas,

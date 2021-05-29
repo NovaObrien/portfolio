@@ -9,15 +9,15 @@ export default class Particle {
     this.directionX = -10
   }
 
-  update(height, width) {
-    if (this.y > height) {
-      this.y = Math.random() * height * 1.3
+  update(canvas) {
+    if (this.y > canvas.height) {
+      this.y = Math.random() * canvas.height * 1.3
       this.weight = Math.random() * 20 + 1
-      this.x = Math.random() * width * 1.3
+      this.x = Math.random() * canvas.width * 1.3
     } else if (this.y < Math.random() * this.y * 1.1 - 50) {
-      this.y = Math.random() * height * 1.3
+      this.y = Math.random() * canvas.height * 1.3
       this.weight = Math.random() * 20 + 1
-      this.x = Math.random() * width * 1.3
+      this.x = Math.random() * canvas.width * 1.3
     }
     this.weight += 0.05
     if (this.size > 1) {
