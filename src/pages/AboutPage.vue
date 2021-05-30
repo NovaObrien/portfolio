@@ -72,52 +72,56 @@
       </div>
     </div>
     <div class="row mt-4">
-      <h5 class="text-warning">
-        Currently Studying
-      </h5>
+      <div class="col">
+        <h5 class="text-warning">
+          Currently Studying
+        </h5>
+      </div>
     </div>
     <div class="row mt-3">
-      <ul>
-        <li>
-          <p>
-            Computer Science
-          </p>
-        </li>
-        <li>
-          <p>
-            Artificial Inteligence
-          </p>
-        </li>
-        <li>
-          <p>
-            Differential Calculus
-          </p>
-        </li>
-        <li>
-          <p>
-            Linear Algebra
-          </p>
-        </li>
-        <li>
-          <p>
-            C++
-          </p>
-        </li>
-        <li>
-          <p>
-            Python
-          </p>
-        </li>
-        <li>
-          <p>
-            Lazy Loading in C#
-          </p>
-        </li>
+      <div class="col text-light">
+        <ul>
+          <li>
+            <p>
+              Computer Science
+            </p>
+          </li>
+          <li>
+            <p>
+              Artificial Inteligence
+            </p>
+          </li>
+          <li>
+            <p>
+              Differential Calculus
+            </p>
+          </li>
+          <li>
+            <p>
+              Linear Algebra
+            </p>
+          </li>
+          <li>
+            <p>
+              C++
+            </p>
+          </li>
+          <li>
+            <p>
+              Python
+            </p>
+          </li>
+          <li>
+            <p>
+              Lazy Loading in C#
+            </p>
+          </li>
         <!-- <li>
           <p>
           </p>
         </li> -->
-      </ul>
+        </ul>
+      </div>
     </div>
 
     <div class="row mt-5 d-flex justify-content-center">
@@ -126,7 +130,7 @@
         <h5 class="text-warning">
           My Family
         </h5>
-        <p>
+        <p class="text-light">
           My other half is this wonderful human.
         </p>
       </div>
@@ -135,7 +139,7 @@
         <h5 class="text-warning">
           Adventure & Exploration
         </h5>
-        <p>
+        <p class="text-light">
           Some of my fondest memories are trecking into mountains, long drives with good music, and discovering new sights. (one of my fonder memories was climbing Angels Landing here in Zion with my old man)
         </p>
       </div>
@@ -145,7 +149,7 @@
         <h5 class="text-warning">
           CodeWorks
         </h5>
-        <p>
+        <p class="text-light">
           A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and some amazing people, and discovered what it means to be a software developer.
         </p>
       </div>
@@ -195,6 +199,7 @@ height: 50vh;
 padding-left: 15vw;
 padding-right: 15vw;
 }
+
 }
 // =================
 // Small screeens Laptops
