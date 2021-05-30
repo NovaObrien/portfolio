@@ -182,7 +182,7 @@ height: 50vh;
   max-height: 35vh;
 }
  .famImg{
-    max-height: 45vh;
+    max-height: 25vh;
   }
   .skills-img{
     display: none;

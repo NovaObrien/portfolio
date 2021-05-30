@@ -64,6 +64,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#dice{
+  color: rgb(226, 221, 221);
+}
 #dice:hover{
   cursor: pointer;
   color: grey;

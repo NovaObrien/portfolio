@@ -72,6 +72,7 @@ export default {
 <style lang="scss" scoped>
 .carpe-logo{
   cursor: pointer;
+  color: rgb(226, 221, 221);
 }
 .carpe-logo:hover{
   color: #636E72;
