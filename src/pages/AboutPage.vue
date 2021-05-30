@@ -18,109 +18,103 @@
     <div class="row mt-5 d-flex justify-content-center text-light">
       <h2>Software Developer</h2>
     </div>
-    <div class="row mt-5">
-      <div class="col">
-        <h5 class="text-warning">
-          Skills
-        </h5>
-      </div>
-    </div>
-    <div class="row mt-2">
-      <div class="col text-light">
-        <ul>
-          <li>
-            <p>
-              VueJs, C# .Net, Javascript, HTML CSS, Actionscript
-            </p>
-          </li>
-          <li>
-            <p>
-              Scrum project management
-            </p>
-          </li>
-          <li>
-            <p>
-              Partner Programing, GitHub Source Control, State Machine
-            </p>
-          </li>
-          <li>
-            <p>
-              Debugging, flow charts, diagrams, MVC, and MVP
-            </p>
-          </li>
-          <li>
-            <p>
-              MySQL SQL, MongoDB
-            </p>
-          </li>
-          <li>
-            <p>
-              Express, Mongoose, Nuget, Dapper, Node.js, Auth0, Sockets
-            </p>
-          </li>
-          <li>
-            <p>
-              UI and UX
-            </p>
-          </li>
-          <li>
-            <p>
-              Adobe Photoshop, Illustrator, and Animate
-            </p>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col">
-        <h5 class="text-warning">
-          Currently Studying
-        </h5>
-      </div>
-    </div>
+
     <div class="row mt-3">
-      <div class="col text-light">
-        <ul>
-          <li>
-            <p>
-              Computer Science
-            </p>
-          </li>
-          <li>
-            <p>
-              Artificial Inteligence
-            </p>
-          </li>
-          <li>
-            <p>
-              Differential Calculus
-            </p>
-          </li>
-          <li>
-            <p>
-              Linear Algebra
-            </p>
-          </li>
-          <li>
-            <p>
-              C++
-            </p>
-          </li>
-          <li>
-            <p>
-              Python
-            </p>
-          </li>
-          <li>
-            <p>
-              Lazy Loading in C#
-            </p>
-          </li>
-        <!-- <li>
-          <p>
-          </p>
-        </li> -->
-        </ul>
+      <div class="col-md-6 col-12 mt-5">
+        <div class="row">
+          <div class="col">
+            <h5 class="text-warning">
+              Skills
+            </h5>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col text-light">
+            <ul>
+              <li>
+                <p>
+                  VueJs, C# .Net, Javascript, HTML CSS, Actionscript
+                </p>
+              </li>
+              <li>
+                <p>
+                  Scrum project management
+                </p>
+              </li>
+              <li>
+                <p>
+                  Partner Programing, GitHub Source Control, State Machine
+                </p>
+              </li>
+              <li>
+                <p>
+                  Debugging, flow charts, diagrams, MVC, and MVP
+                </p>
+              </li>
+              <li>
+                <p>
+                  MySQL SQL, MongoDB
+                </p>
+              </li>
+              <li>
+                <p>
+                  Express, Mongoose, Nuget, Dapper, Node.js, Auth0, Sockets
+                </p>
+              </li>
+              <li>
+                <p>
+                  UI and UX
+                </p>
+              </li>
+              <li>
+                <p>
+                  Adobe Photoshop, Illustrator, and Animate
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-12 mt-5">
+        <div class="row">
+          <div class="col">
+            <h5 class="text-warning">
+              Currently Studying
+            </h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-light mt-2">
+            <ul>
+              <li>
+                <p>
+                  Computer Science and Artficial Intelligence
+                </p>
+              </li>
+              <li>
+                <p>
+                  Differential Calculus and Linear Algebra
+                </p>
+              </li>
+              <li>
+                <p>
+                  Python and C++
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lazy Loading in C#
+                </p>
+              </li>
+              <li>
+                <p>
+                  Basic Cryptography with batch algorithms
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -188,7 +182,10 @@ height: 50vh;
   max-height: 35vh;
 }
  .famImg{
-    max-height: 45vw;
+    max-height: 45vh;
+  }
+  .skills-img{
+    display: none;
   }
 
   // =========
