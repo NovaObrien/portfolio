@@ -5,9 +5,9 @@
         <h1 class="d-flex justify-content-center mt-4 text-light">
           Nova O'Brien
         </h1>
-        <h3 class="d-flex justify-content-center mb-5 text-warning">
+        <h2 class="d-flex justify-content-center mb-5 mt-4 text-warning">
           Portfolio
-        </h3>
+        </h2>
       </div>
     </div>
     <div class="row">
@@ -19,13 +19,13 @@
       <h2>Software Developer</h2>
     </div>
 
-    <div class="row mt-3">
-      <div class="col-md-6 col-12 mt-5">
+    <div class="row mt-5">
+      <div class="col-md-6 col-12 mt-3">
         <div class="row">
           <div class="col">
-            <h5 class="text-warning">
+            <h4 class="text-warning">
               Skills
-            </h5>
+            </h4>
           </div>
         </div>
         <div class="row mt-2">
@@ -76,12 +76,12 @@
         </div>
       </div>
 
-      <div class="col-md-6 col-12 mt-5">
+      <div class="col-md-6 col-12 mt-3">
         <div class="row">
           <div class="col">
-            <h5 class="text-warning">
+            <h4 class="text-warning">
               Currently Studying
-            </h5>
+            </h4>
           </div>
         </div>
         <div class="row">
@@ -118,9 +118,11 @@
       </div>
     </div>
 
-    <div class="row mt-5 d-flex justify-content-center">
-      <img class="famImg rounded" src="../assets/img/Family3.jpg" alt="">
-      <div class="col-2">
+    <div class="row mt-4 d-flex justify-content-center">
+      <div class="col-6 mt-3">
+        <img class="famImg rounded" src="../assets/img/Family3.jpg" alt="">
+      </div>
+      <div class="col-6 mt-3">
         <h5 class="text-warning">
           My Family
         </h5>
@@ -128,8 +130,8 @@
           My other half is this wonderful human.
         </p>
       </div>
-      <img class="angelImg rounded" src="../assets/img/AngelsLanding.jpg" alt="">
-      <div class="col">
+
+      <div class="col-6 mt-4">
         <h5 class="text-warning">
           Adventure & Exploration
         </h5>
@@ -137,9 +139,12 @@
           Some of my fondest memories are trecking into mountains, long drives with good music, and discovering new sights. (one of my fonder memories was climbing Angels Landing here in Zion with my old man)
         </p>
       </div>
+      <div class="col-6 mt-5">
+        <img class="angelImg rounded" src="../assets/img/AngelsLanding.jpg" alt="">
+      </div>
     </div>
     <div class="row d-flex justify-content-center my-5">
-      <div class="col">
+      <div class="col-12">
         <h5 class="text-warning">
           CodeWorks
         </h5>
@@ -147,7 +152,7 @@
           A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and some amazing people, and discovered what it means to be a software developer.
         </p>
       </div>
-      <img class="famImg rounded" src="../assets/img/codeworks.jpg" alt="">
+      <img class="codeImg rounded" src="../assets/img/codeworks.jpg" alt="">
     </div>
     <div class="row d-flex justify-content-center">
       <router-link :to="{name: 'Apps'}">
@@ -171,7 +176,7 @@ export default {
     font-family: 'Limelight', cursive;
   }
  p{
-    font-size: 12px;
+    font-size: 14px;
   }
 
 .portImg{
@@ -179,13 +184,13 @@ height: 50vh;
 }
 
 .angelImg{
-  max-height: 35vh;
+  max-height: 32vh;
 }
  .famImg{
-    max-height: 25vh;
+    max-height: 20vh;
   }
-  .skills-img{
-    display: none;
+  .codeImg{
+    max-height: 27vh;
   }
 
   // =========
@@ -203,7 +208,7 @@ padding-right: 15vw;
 // ==================
  @media(min-width: 769px){
 .famImg{
-  max-height: 35vh;
+  max-height: 22vh;
 }
 }
 // ===========
@@ -216,10 +221,13 @@ padding-right: 15vw;
 // extra large screens
 // ==============
  @media(min-width: 1200px){
-// .feature-img{
-//   width: 35vw;
-//   height: 40vh;
-//   border-radius: 19px;
-// }
+   .container-fluid{
+     padding-left: 25vw;
+     padding-right: 25vw;
+   }
+    p{
+    font-size: 18px;
+  }
+
  }
 </style>
