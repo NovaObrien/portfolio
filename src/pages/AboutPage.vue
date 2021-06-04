@@ -5,7 +5,7 @@
         <h1 class="d-flex justify-content-center mt-4 text-light">
           Nova O'Brien
         </h1>
-        <h2 class="d-flex justify-content-center mb-5 mt-4 text-warning">
+        <h2 class="d-flex justify-content-center mb-5 mt-3 text-warning">
           Portfolio
         </h2>
       </div>
@@ -15,15 +15,15 @@
         <img class="portImg shadow-lg border border-warning rounded-circle" src="../assets/img/SeflPort2.png" alt="">
       </div>
     </div>
-    <div class="row mt-5 d-flex justify-content-center text-light">
+    <div class="row mt-4 d-flex justify-content-center text-light text-font">
       <h2>Software Developer</h2>
     </div>
 
-    <div class="row mt-5">
+    <div class="row mt-4">
       <div class="col-md-6 col-12 mt-3">
         <div class="row">
           <div class="col">
-            <h4 class="text-warning">
+            <h4 class="text-warning text-font border-bottom">
               Skills
             </h4>
           </div>
@@ -79,7 +79,7 @@
       <div class="col-md-6 col-12 mt-3">
         <div class="row">
           <div class="col">
-            <h4 class="text-warning">
+            <h4 class="text-warning text-font border-bottom">
               Currently Studying
             </h4>
           </div>
@@ -123,7 +123,7 @@
         <img class="famImg rounded" src="../assets/img/Family3.jpg" alt="">
       </div>
       <div class="col-6 mt-3">
-        <h5 class="text-warning">
+        <h5 class="text-warning text-font border-bottom">
           My Family
         </h5>
         <p class="text-light p-3">
@@ -132,7 +132,7 @@
       </div>
 
       <div class="col-6 mt-5">
-        <h5 class="text-warning ">
+        <h5 class="text-warning text-font border-bottom">
           Adventure & Exploration
         </h5>
         <p class="text-light p-3">
@@ -145,7 +145,7 @@
     </div>
     <div class="row d-flex justify-content-center my-5">
       <div class="col-12">
-        <h5 class="text-warning">
+        <h5 class="text-warning border-bottom text-font">
           CodeWorks
         </h5>
         <p class="text-light p-3">
@@ -172,6 +172,10 @@ export default {
 // ==========>
 // Mobile
 // =========
+.text-font{
+   font-family: 'Nanum Myeongjo', serif;
+   padding-bottom: 10px;
+}
   h1{
     font-family: 'Limelight', cursive;
   }
@@ -183,12 +187,16 @@ export default {
 height: 50vh;
 }
 
-.angelImg{
-  max-height: 32vh;
-}
  .famImg{
     max-height: 20vh;
+    max-width: 47vw;
+    margin-top: 3rem;
   }
+.angelImg{
+  max-height: 32vh;
+    margin-top: 5rem;
+
+}
   .codeImg{
     max-height: 27vh;
   }
@@ -206,10 +214,14 @@ padding-right: 15vw;
 // =================
 // Small screeens Laptops
 // ==================
- @media(min-width: 769px){
+ @media(min-width: 768px){
 .famImg{
   max-height: 22vh;
+  max-width: 33vw;
 }
+p{
+    font-size: 21px;
+  }
 }
 // ===========
 // Desktops

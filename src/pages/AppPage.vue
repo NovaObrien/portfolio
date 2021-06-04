@@ -63,6 +63,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.container-fluid{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
  @media(min-width: 481px){
 .container-fluid{
 padding-left: 15vw;
@@ -94,9 +98,10 @@ padding-right: 15vw;
   border-color: #000;
 }
 #style{
-    color: #636E72;
+  color: #636E72;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 100px;
+  margin: 1rem;
 }
 
 .fullStack{
