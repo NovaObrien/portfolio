@@ -73,21 +73,23 @@ export default {
 
 <style lang="scss" scoped>
 #logo{
-  color: #000;
+  color: rgb(139, 192, 159);
   font-family: 'Audiowide', cursive;
-  font-size: 100px;
-  border: 12px solid;
+
+     font-size: 100px;
+    border: 12px solid;
   cursor: pointer;
 }
 #logo:hover{
   color: #636E72;
 }
-@media (max-width: 575.98px) {
-  #logo{
-    font-size: 70px;
-    border: 10px solid;
-  }
-}
+// @media (min-width: 800.98px) {
+//   #logo{
+//  font-size: 100px;
+//   border: 15px solid;
+
+//   }
+// }
 .keeprSite{
   max-height: 35vh;
   max-width: 35vw;

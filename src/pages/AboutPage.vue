@@ -2,171 +2,244 @@
   <div class="about-page container-fluid">
     <div class="row">
       <div class="col">
-        <h1 class="d-flex justify-content-center">
-          Hey, I'm Nova!
+        <h1 class="d-flex justify-content-center mt-4 text-light">
+          Nova O'Brien
         </h1>
-        <h3 class="d-flex justify-content-center mb-5 text-warning">
-          Welcome to my about page!
-        </h3>
+        <h2 class="d-flex justify-content-center mb-5 mt-3 text-warning">
+          Portfolio
+        </h2>
       </div>
     </div>
     <div class="row">
       <div class="col d-flex justify-content-center">
-        <img class="portImg" src="../assets/img/SeflPort2.png" alt="">
+        <img class="portImg shadow-lg border border-warning rounded-circle" src="../assets/img/SeflPort2.png" alt="">
       </div>
     </div>
-    <div class="row mt-5 d-flex justify-content-center">
+    <div class="row mt-4 d-flex justify-content-center text-light text-font">
       <h2>Software Developer</h2>
     </div>
-    <div class="row mt-5 mx-auto">
-      <div class="col">
-        <h5 class="text-warning">
-          What I've learned thus far
-        </h5>
-        <ul>
-          <li>
-            <p>
-              VueJs, C# .Net, Javascript, HTML CSS, Actionscript
-            </p>
-          </li>
-          <li>
-            <p>
-              Scrum project management, timeline development, and execution of set goals
-            </p>
-          </li>
-          <li>
-            <p>
-              Partner Programing, GitHub Source Control, State Machine
-            </p>
-          </li>
-          <li>
-            <p>
-              Debugging, flow charts, diagrams, MVC, and MVP
-            </p>
-          </li>
-          <li>
-            <p>
-              MySQL SQL, MongoDB, Express, Mongoose, Nuget, dapper
-            </p>
-          </li>
-          <li>
-            <p>
-              Node.js, Auth0, Sockets
-            </p>
-          </li>
-          <li>
-            <p>
-              UE4 Blueprints, Zbrush, Graphic Design, Animation, StoryTelling, UI, and UX
-            </p>
-          </li>
-          <li>
-            <p>
-              Adobe Photoshop, Illustrator, and Animate
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="col">
-        <h5 class="text-warning">
-          I always strive to discover new skills! I'm currently studying...
-        </h5>
-        <ul>
-          <li>
-            <p>
-              Unit Testing
-            </p>
-          </li>
-          <li>
-            <p>
-              Artificial Inteligence
-            </p>
-          </li>
-          <li>
-            <p>
-              Differential Calculus
-            </p>
-          </li>
-          <li>
-            <p>
-              Linear Algebra
-            </p>
-          </li>
-          <li>
-            <p>
-              C++
-            </p>
-          </li>
-          <li>
-            <p>
-              Python
-            </p>
-          </li>
-          <li>
-            <p>
-              Lazy Loading in C#
-            </p>
-          </li>
-        </ul>
+
+    <div class="row mt-4">
+      <div class="col-md-6 col-12 mt-3">
+        <div class="row">
+          <div class="col">
+            <h4 class="text-warning text-font border-bottom">
+              Skills
+            </h4>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col text-light">
+            <ul>
+              <li>
+                <p>
+                  VueJs, C# .Net, Javascript, HTML CSS, Actionscript
+                </p>
+              </li>
+              <li>
+                <p>
+                  Scrum project management
+                </p>
+              </li>
+              <li>
+                <p>
+                  Partner Programing, GitHub Source Control, State Machine
+                </p>
+              </li>
+              <li>
+                <p>
+                  Debugging, flow charts, diagrams, MVC, and MVP
+                </p>
+              </li>
+              <li>
+                <p>
+                  MySQL SQL, MongoDB
+                </p>
+              </li>
+              <li>
+                <p>
+                  Express, Mongoose, Nuget, Dapper, Node.js, Auth0, Sockets
+                </p>
+              </li>
+              <li>
+                <p>
+                  UI and UX
+                </p>
+              </li>
+              <li>
+                <p>
+                  Adobe Photoshop, Illustrator, and Animate
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div class="row mt-5 d-flex justify-content-center">
+      <div class="col-md-6 col-12 mt-3">
+        <div class="row">
+          <div class="col">
+            <h4 class="text-warning text-font border-bottom">
+              Currently Studying
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-light mt-2">
+            <ul>
+              <li>
+                <p>
+                  Computer Science and Artficial Intelligence
+                </p>
+              </li>
+              <li>
+                <p>
+                  Differential Calculus and Linear Algebra
+                </p>
+              </li>
+              <li>
+                <p>
+                  Python and C++
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lazy Loading in C#
+                </p>
+              </li>
+              <li>
+                <p>
+                  Basic Cryptography with batch algorithms
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4 d-flex justify-content-center">
+      <div class="col-6 mt-3">
         <img class="famImg rounded" src="../assets/img/Family3.jpg" alt="">
-        <div class="col-2">
-          <h5 class="text-warning">
-            My Family
-          </h5>
-          <p>
-            My other half is this wonderful human.
-          </p>
-        </div>
+      </div>
+      <div class="col-6 mt-3">
+        <h5 class="text-warning text-font border-bottom">
+          My Family
+        </h5>
+        <p class="text-light p-3">
+          My other half is this wonderful human. (We also have a small little rat dog, and a large number of plants that we consider family)
+        </p>
+      </div>
+
+      <div class="col-6 mt-5">
+        <h5 class="text-warning text-font border-bottom">
+          Adventure & Exploration
+        </h5>
+        <p class="text-light p-3">
+          Some of my fondest memories are trecking into mountains, long drives with good music, and discovering new sights. (one of my fonder memories was climbing Angels Landing here in Zion with my old man)
+        </p>
+      </div>
+      <div class="col-6 mt-5">
         <img class="angelImg rounded" src="../assets/img/AngelsLanding.jpg" alt="">
-        <div class="col">
-          <h5 class="text-warning">
-            Adventure & Exploration
-          </h5>
-          <p>
-            Some of my fondest memories are trecking into mountains, long drives with good music, and discovering new sights. (one of my fonder memories was climbing Angels Landing here in Zion with my old man)
-          </p>
-        </div>
       </div>
-      <div class="row d-flex justify-content-center my-5">
-        <div class="col">
-          <h5 class="text-warning">
-            CodeWorks
-          </h5>
-          <p>
-            A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and some amazing people, and discovered what it means to be a software developer.
-          </p>
-        </div>
-        <img class="famImg rounded" src="../assets/img/codeworks.jpg" alt="">
+    </div>
+    <div class="row d-flex justify-content-center my-5">
+      <div class="col-12">
+        <h5 class="text-warning border-bottom text-font">
+          CodeWorks
+        </h5>
+        <p class="text-light p-3">
+          A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and some amazing people, and discovered what it means to be a software developer.
+        </p>
       </div>
+      <img class="codeImg rounded" src="../assets/img/codeworks.jpg" alt="">
+    </div>
+    <div class="row d-flex justify-content-center">
+      <router-link :to="{name: 'Apps'}">
+        <p>Check out the Apps Page</p>
+      </router-link>
     </div>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'AboutPage'
 }
 </script>
 <style lang="scss" scoped>
+// ==========>
+// Mobile
+// =========
+.text-font{
+   font-family: 'Nanum Myeongjo', serif;
+   padding-bottom: 10px;
+}
+  h1{
+    font-family: 'Limelight', cursive;
+  }
+ p{
+    font-size: 14px;
+  }
+
 .portImg{
 height: 50vh;
 }
-.famImg{
-  max-height: 35vh;
-}
+
+ .famImg{
+    max-height: 20vh;
+    max-width: 47vw;
+    margin-top: 3rem;
+  }
 .angelImg{
-  max-height: 35vh;
+  max-height: 32vh;
+    margin-top: 5rem;
+
 }
-@media (max-width: 575.98px) {
-  .famImg{
-    max-height: 45vw;
+  .codeImg{
+    max-height: 27vh;
+  }
+
+  // =========
+  // Tablets
+  // ==========
+ @media(min-width: 481px){
+.container-fluid{
+padding-left: 15vw;
+padding-right: 15vw;
+}
+
+}
+// =================
+// Small screeens Laptops
+// ==================
+ @media(min-width: 768px){
+.famImg{
+  max-height: 22vh;
+  max-width: 33vw;
+}
+p{
+    font-size: 21px;
   }
 }
-@media (max-width: 575.98px) {
-  p{
-    font-size: 12px;
-  }
+// ===========
+// Desktops
+// ===========
+ @media(min-width: 1024px){
+
 }
+// ============
+// extra large screens
+// ==============
+ @media(min-width: 1200px){
+   .container-fluid{
+     padding-left: 25vw;
+     padding-right: 25vw;
+   }
+    p{
+    font-size: 18px;
+  }
+
+ }
 </style>

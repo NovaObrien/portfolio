@@ -1,33 +1,41 @@
 <template>
   <div class="art-page container-fluid">
-    <div class="row">
-      <div class="col">
-        <h3 class="text-warning">
+    <div class="row ml-4 py-5">
+      <div class="col-8 col-md-4 border-bottom">
+        <h1 class="text-warning  text-font">
           Recent Art
-        </h3>
-        <img src="../assets/img/SeflPort2.png" alt="" class="img m-1 rounded">
-        <img src="../assets/img/DragonLogo.svg" alt="" class="dragonImg m-1 rounded">
-        <img src="../assets/img/Bonzai.svg" alt="" class="dragonImg m-1 rounded">
-        <img src="../assets/img/SpaceMan.png" alt="" class="img m-1 rounded">
-        <img src="../assets/img/AlienGuy.png" alt="" class="img m-1 rounded">
-        <img src="../assets/img/WarriorGal.png" alt="" class="img m-1 rounded">
+        </h1>
       </div>
     </div>
-    <div class="row mt-5">
+    <div class="row ml-2">
       <div class="col">
-        <h3 class="text-warning">
+        <img src="../assets/img/SeflPort2.png" alt="" class="img rounded">
+        <img src="../assets/img/DragonLogoNew.svg" alt="" class="dragonImg rounded">
+        <img src="../assets/img/Bonzai.svg" alt="" class="dragonImg rounded">
+        <img src="../assets/img/SpaceMan.png" alt="" class="img rounded">
+        <img src="../assets/img/AlienGuy.png" alt="" class="img rounded">
+        <img src="../assets/img/WarriorGal.png" alt="" class="img rounded">
+      </div>
+    </div>
+    <div class="row ml-4 mt-5 py-5">
+      <div class="col-8 col-md-4 border-bottom">
+        <h1 class="text-warning text-font">
           2018 Art
-        </h3>
-        <img src="../assets/img/SpaceAdd.png" alt="" class="img rounded m-1">
-        <img src="../assets/img/MountainMan.png" alt="" class="img rounded m-1">
-        <img src="../assets/img/abstract.jpg" alt="" class="img rounded m-1">
-        <img src="../assets/img/Guitar.png" alt="" class="img rounded m-1">
-        <img src="../assets/img/FamGift.jpg" alt="" class="img rounded m-1">
-        <img src="../assets/img/IslandGuy.jpg" alt="" class="img rounded m-1">
-        <img src="../assets/img/HairLady.png" alt="" class="img rounded m-1">
-        <img src="../assets/img/emergence.png" alt="" class="img rounded m-1">
-        <img src="../assets/img/bunny.png" alt="" class="img rounded m-1">
-        <img src="../assets/img/Scary.png" alt="" class="img rounded m-1">
+        </h1>
+      </div>
+    </div>
+    <div class="row ml-2">
+      <div class="col">
+        <img src="../assets/img/SpaceAdd.png" alt="" class="img rounded">
+        <img src="../assets/img/MountainMan.png" alt="" class="img rounded">
+        <img src="../assets/img/abstract.jpg" alt="" class="img rounded">
+        <img src="../assets/img/Guitar.png" alt="" class="img rounded">
+        <img src="../assets/img/FamGift.jpg" alt="" class="img rounded">
+        <img src="../assets/img/IslandGuy.jpg" alt="" class="img rounded">
+        <img src="../assets/img/HairLady.png" alt="" class="img rounded">
+        <img src="../assets/img/emergence.png" alt="" class="img rounded">
+        <img src="../assets/img/bunny.png" alt="" class="img rounded">
+        <img src="../assets/img/Scary.png" alt="" class="img rounded">
       </div>
     </div>
   </div>
@@ -44,10 +52,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.img{
-max-height: 50vh;
+
+img {
+margin: 5rem;
+max-height: 40vh;
+  border-radius: 50%;
+  margin: 1rem;
 }
 .dragonImg{
-height: 50vh;
+height: 40vh;
+}
+.text-font{
+  font-family: 'Nanum Myeongjo', serif;
 }
 </style>

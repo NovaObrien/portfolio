@@ -6,7 +6,7 @@ function loadPage(page) {
 
 const routes = [
   {
-    path: '/',
+    path: '/apps',
     name: 'Apps',
     component: loadPage('AppPage')
   },
@@ -16,7 +16,7 @@ const routes = [
     component: loadPage('ArtPage')
   },
   {
-    path: '/about',
+    path: '/',
     name: 'About',
     component: loadPage('AboutPage')
   },

@@ -1,7 +1,9 @@
 <template>
   <div class="rpg-blog-modal">
     <!-- Button trigger modal -->
-    <i class="fa fa-dice-d20 fa-9x" data-toggle="modal" data-target="#rpgModal" id="dice"></i>
+    <div class="d-flex flex-column align-items-center">
+      <i class="fa fa-dice-d20 " data-toggle="modal" data-target="#rpgModal" id="dice"></i>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade"
@@ -64,6 +66,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  #dice{
+  //    max-width: 35vw;
+  // min-width: 30vw;
+  color: rgb(226, 221, 221);
+  font-size: 140px;
+  // max-height: 35vh;
+  // min-height: 30vh;
+  }
+
 #dice:hover{
   cursor: pointer;
   color: grey;
@@ -78,11 +89,7 @@ export default {
     max-width: 75vw;
   }
 }
-@media (max-width: 575.98px) {
-  #dice{
-    max-width: 25vw;
-  }
-}
+
 .text{
    font-family: 'Nanum Myeongjo', serif;
 }

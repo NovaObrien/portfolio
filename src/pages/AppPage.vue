@@ -1,17 +1,25 @@
 <template>
   <div class="app-page container-fluid">
-    <div class="row d-flex justify-content-center mt-5 " id="style">
+    <div class="row d-flex justify-content-center mt-5 border-bottom" id="style">
       <h3 class="text-warning">
         Full-Stack Applications
       </h3>
     </div>
-    <div class="row fullStack">
-      <keepr-modal class=" ml-4 kan" />
-      <crit-fail-modal class="kan" />
-      <kan-ban-modal class="mr-4 kan" />
-      <rpg-blog-modal class="ml-4 mr-3 kan" />
+    <div class="row py-5 mb-5 fullStack">
+      <div class="col">
+        <rpg-blog-modal class="kan" />
+      </div>
+      <div class="col">
+        <keepr-modal class="kan" />
+      </div>
+      <div class="col">
+        <crit-fail-modal class="kan" />
+      </div>
+      <div class="col">
+        <kan-ban-modal class="kan" />
+      </div>
     </div>
-    <div class="row d-flex justify-content-center mt-5" id="style">
+    <div class="row d-flex justify-content-center border-bottom  my-t" id="style">
       <h3 class="text-warning">
         Early Applications
       </h3>
@@ -55,6 +63,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.container-fluid{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+ @media(min-width: 481px){
+.container-fluid{
+padding-left: 15vw;
+padding-right: 15vw;
+}
+ }
 @media (max-width: 575.98px) {
   .mar{
    justify-content: center;
@@ -80,12 +98,14 @@ export default {
   border-color: #000;
 }
 #style{
-    color: #636E72;
+  color: #636E72;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 100px;
+  margin: 1rem;
 }
 
 .fullStack{
+  display: flex;
   justify-content: center;
 
 }
