@@ -127,7 +127,7 @@
           My Family
         </h5>
         <p class="text-light">
-          My other half is this wonderful human.
+          My other half is this wonderful human. (We also have a small little rat dog, and a large number of plants that we consider family)
         </p>
       </div>
 

@@ -2,7 +2,7 @@
   <div class="crit-fail-modal">
     <!-- Button trigger modal -->
     <div data-toggle="modal" data-target="#critModal">
-      <img class="critFailLogo rounded-circle" src="../assets/img/DragonLogo.svg" alt="">
+      <img class="critFailLogo rounded-circle" src="../assets/img/DragonLogoNew.svg" alt="">
     </div>
 
     <!-- Modal -->
@@ -64,18 +64,18 @@ export default {
 
 <style lang="scss" scoped>
 .critFailLogo{
-  max-width: 35vh;
-  min-width: 35vh;
+  max-width: 35vw;
+  min-width: 30vw;
   max-height: 35vh;
-  min-height: 35vh;
+  min-height: 30vh;
   cursor: pointer;
 }
-@media (max-width: 575.98px) {
-  .critFailLogo{
-    margin-top: 1vh;
-    margin-left: 15%
-  }
-}
+// @media (max-width: 575.98px) {
+//   .critFailLogo{
+//     margin-top: 1vh;
+//     margin-left: 15%
+//   }
+// }
 .critFailLogo:hover{
   opacity: 0.85;
 

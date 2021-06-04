@@ -6,7 +6,7 @@
           Recent Art
         </h3>
         <img src="../assets/img/SeflPort2.png" alt="" class="img m-1 rounded">
-        <img src="../assets/img/DragonLogo.svg" alt="" class="dragonImg m-1 rounded">
+        <img src="../assets/img/DragonLogoNew.svg" alt="" class="dragonImg m-1 rounded">
         <img src="../assets/img/Bonzai.svg" alt="" class="dragonImg m-1 rounded">
         <img src="../assets/img/SpaceMan.png" alt="" class="img m-1 rounded">
         <img src="../assets/img/AlienGuy.png" alt="" class="img m-1 rounded">

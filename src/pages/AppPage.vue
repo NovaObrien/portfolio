@@ -6,10 +6,18 @@
       </h3>
     </div>
     <div class="row fullStack">
-      <keepr-modal class=" ml-4 kan" />
-      <crit-fail-modal class="kan" />
-      <kan-ban-modal class="mr-4 kan" />
-      <rpg-blog-modal class="ml-4 mr-3 kan" />
+      <div class="col">
+        <rpg-blog-modal class="kan px-5" />
+      </div>
+      <div class="col">
+        <keepr-modal class="kan px-5" />
+      </div>
+      <div class="col">
+        <crit-fail-modal class="kan" />
+      </div>
+      <div class="col">
+        <kan-ban-modal class="kan px-5" />
+      </div>
     </div>
     <div class="row d-flex justify-content-center mt-5" id="style">
       <h3 class="text-warning">
@@ -86,7 +94,8 @@ export default {
 }
 
 .fullStack{
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
 
 }
 .earlyApp{

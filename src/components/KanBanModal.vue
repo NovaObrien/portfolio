@@ -69,18 +69,19 @@ export default {
 
 <style lang="scss" scoped>
 .kanbanLogo{
-  min-width: 10vw;
-  max-height: 35vh;
-  max-width: 35vw;
+ max-width: 22vw;
+  min-width: 22vw;
+  max-height: 22vh;
+  min-height: 22vh;
   cursor: pointer;
 }
-@media (max-width: 575.98px) {
-  .kanbanLogo{
-    min-width: 35vw;
-    max-height: 35vh;
-    max-width: 35vw;
-  }
-}
+// @media (max-width: 575.98px) {
+//   .kanbanLogo{
+//     min-width: 35vw;
+//     max-height: 35vh;
+//     max-width: 35vw;
+//   }
+// }
 .kanbanLogo:hover{
   // background-image: linear-gradient(180deg, yellow, red );
   background-repeat: no-repeat;
