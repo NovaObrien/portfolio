@@ -126,16 +126,16 @@
         <h5 class="text-warning">
           My Family
         </h5>
-        <p class="text-light">
+        <p class="text-light p-3">
           My other half is this wonderful human. (We also have a small little rat dog, and a large number of plants that we consider family)
         </p>
       </div>
 
-      <div class="col-6 mt-4">
-        <h5 class="text-warning">
+      <div class="col-6 mt-5">
+        <h5 class="text-warning ">
           Adventure & Exploration
         </h5>
-        <p class="text-light">
+        <p class="text-light p-3">
           Some of my fondest memories are trecking into mountains, long drives with good music, and discovering new sights. (one of my fonder memories was climbing Angels Landing here in Zion with my old man)
         </p>
       </div>
@@ -148,7 +148,7 @@
         <h5 class="text-warning">
           CodeWorks
         </h5>
-        <p class="text-light">
+        <p class="text-light p-3">
           A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and some amazing people, and discovered what it means to be a software developer.
         </p>
       </div>

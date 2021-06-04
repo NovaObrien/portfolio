@@ -1,8 +1,8 @@
 <template>
   <div class="kan-ban-modal">
     <!-- Button trigger modal -->
-    <div data-toggle="modal" data-target="#kanbanModal">
-      <img class="kanbanLogo rounded-circle" src="../assets/img/Bonzai.svg" alt="">
+    <div class="d-flex flex-column align-items-center">
+      <img class="kanbanLogo rounded-circle" src="../assets/img/Bonzai.svg" alt="" data-toggle="modal" data-target="#kanbanModal">
     </div>
 
     <!-- Modal -->
@@ -69,10 +69,9 @@ export default {
 
 <style lang="scss" scoped>
 .kanbanLogo{
- max-width: 22vw;
-  min-width: 22vw;
-  max-height: 22vh;
-  min-height: 22vh;
+ width: 150px;
+  // max-height: 35vh;
+  // min-height: 30vh;
   cursor: pointer;
 }
 // @media (max-width: 575.98px) {

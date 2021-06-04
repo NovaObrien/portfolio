@@ -48,7 +48,7 @@ a:hover {
   text-decoration: none;
 }
 .nav-link{
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
   padding: .5rem;
 }
@@ -56,11 +56,25 @@ a:hover {
   color: var(--warning);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 475px) {
   .nav-link{
-    font-size: 17px;
+    font-size: 12px;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+}
+
+@media (min-width: 800px) {
+  .nav-link{
+    font-size: 17px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .nav-link{
+    font-size: 21px;
   }
 
 }
