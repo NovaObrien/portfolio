@@ -34,6 +34,7 @@
 </template>
 
 <script>
+import { onMounted } from '@vue/runtime-core'
 import FarmClickerModal from '../components/FarmClickerModal.vue'
 import router from '../router'
 export default {
@@ -41,6 +42,10 @@ export default {
   name: 'AppPage',
 
   setup() {
+    onMounted(() => {
+      window.scrollTo(0, 1)
+      window.scrollTo(0, 0)
+    })
     return {
       critFailApp() {
         router.push({ name: 'CritFail' })
