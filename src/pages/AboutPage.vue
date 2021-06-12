@@ -128,7 +128,7 @@
     <div class="row d-flex mt-4">
       <div class="col-12 mb-4">
         <div class="row">
-          <div class="col text-light">
+          <div class="col text-light ml-2">
             <p>
               Working with a client, I modernized their website for mobile first, as well as making their lives easier when creating listings. These were part of the accepted figma drafts (not final) design for the client
             </p>
