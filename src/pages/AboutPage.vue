@@ -15,7 +15,7 @@
         <img class="portImg shadow-lg border border-warning rounded-circle" src="../assets/img/SeflPort2.png" alt="">
       </div>
     </div>
-    <div class="row mt-4 d-flex justify-content-center text-light text-font">
+    <div class="row  m-5 p-2 d-flex justify-content-center text-light text-font border-bottom border-dark text-center">
       <h2>Software Developer</h2>
     </div>
 
@@ -138,7 +138,7 @@
         </div>
       </div>
 
-      <div class="col-12 mt-3">
+      <div class="col-12 mt-3 ">
         <div class="row mb-5">
           <div class="col text-light mt-2">
             <p>The clients old website design on mobile:</p>
@@ -148,7 +148,7 @@
       </div>
     </div>
 
-    <div class="row my-5 d-flex justify-content-center text-light text-font">
+    <div class="row d-flex justify-content-center text-light text-font border-bottom border-dark m-5 p-2">
       <h2>About Me</h2>
     </div>
 
@@ -213,7 +213,7 @@ export default {
 // =========
 .text-font{
    font-family: 'Nanum Myeongjo', serif;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
    padding-bottom: 10px;
 }
   h1{
@@ -252,9 +252,17 @@ height: 50vh;
   // Tablets
   // ==========
  @media(min-width: 481px){
+    p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
 .container-fluid{
-padding-left: 15vw;
-padding-right: 15vw;
+margin-left: 12vw;
+margin-right: 12vw;
+// padding-left: 3em;
+// padding-right: 3em;
+
 }
 
 }
@@ -281,11 +289,24 @@ p{
 // ==============
  @media(min-width: 1200px){
    .container-fluid{
-     padding-left: 23vw;
-     padding-right: 23vw;
+     margin-left: 18vw;
+     margin-right: 18vw;
+
    }
     p{
-    font-size: 18px;
+    font-size: 17px;
+  }
+
+ }
+
+ @media(min-width: 1800px){
+   .container-fluid{
+     margin-left: 25vw;
+     margin-right: 25vw;
+
+   }
+     p{
+    font-size: 20px;
   }
 
  }
