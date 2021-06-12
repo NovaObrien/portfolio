@@ -118,9 +118,43 @@
       </div>
     </div>
 
-    <div class="row mt-4 d-flex justify-content-center">
+    <div class="row mt-5">
+      <div class="col">
+        <h4 class="text-warning text-font border-bottom">
+          Freelancing
+        </h4>
+      </div>
+    </div>
+    <div class="row d-flex mt-4">
+      <div class="col-12 ">
+        <div class="row">
+          <div class="col text-light">
+            <p>
+              Working with a client, I modernized their website for mobile first, as well as making their lives easier when creating listings. These were part of the accepted figma drafts (not final) design for the client
+            </p>
+            <img class="freelanceImg border border-warning rounded m-3" src="../assets/img/Freelance.png" alt="">
+            <img class="freelanceImg border border-warning rounded m-3" src="../assets/img/FreelanceListing.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 mt-3">
+        <div class="row mb-5">
+          <div class="col text-light mt-2">
+            <p>The clients old website design on mobile:</p>
+            <img class="freelanceImg border border-warning rounded m-3" src="../assets/img/FreelanceOldSite.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row my-5 d-flex justify-content-center text-light text-font">
+      <h2>About Me</h2>
+    </div>
+
+    <div class="row mt-5 d-flex justify-content-center">
       <div class="col-6 mt-3">
-        <img class="famImg rounded" src="../assets/img/Family3.jpg" alt="">
+        <img class="famImg rounded border border-warning" src="../assets/img/Family3.jpg" alt="">
       </div>
       <div class="col-6 mt-3">
         <h5 class="text-warning text-font border-bottom">
@@ -136,11 +170,11 @@
           Adventure & Exploration
         </h5>
         <p class="text-light p-3">
-          Some of my fondest memories are trecking into mountains, long drives with good music, and discovering new sights. (one of my fonder memories was climbing Angels Landing here in Zion with my old man)
+          Some of my fondest memories are trecking into mountains, long drives with good music, and discovering new sights. (Climbing Angels Landing in Zion with my old man)
         </p>
       </div>
       <div class="col-6 mt-5">
-        <img class="angelImg rounded" src="../assets/img/AngelsLanding.jpg" alt="">
+        <img class="angelImg rounded border border-warning" src="../assets/img/AngelsLanding.jpg" alt="">
       </div>
     </div>
     <div class="row d-flex justify-content-center my-5">
@@ -152,7 +186,7 @@
           A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and some amazing people, and discovered what it means to be a software developer.
         </p>
       </div>
-      <img class="codeImg rounded" src="../assets/img/codeworks.jpg" alt="">
+      <img class="codeImg rounded border border-warning" src="../assets/img/codeworks.jpg" alt="">
     </div>
     <div class="row d-flex justify-content-center">
       <router-link :to="{name: 'Apps'}">
@@ -165,7 +199,12 @@
 <script>
 
 export default {
-  name: 'AboutPage'
+  name: 'AboutPage',
+  setup() {
+    return {
+
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>
@@ -174,17 +213,25 @@ export default {
 // =========
 .text-font{
    font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 2px;
    padding-bottom: 10px;
 }
   h1{
     font-family: 'Limelight', cursive;
+    letter-spacing: 2px;
   }
  p{
     font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
   }
 
 .portImg{
 height: 50vh;
+}
+
+.freelanceImg{
+  max-height: 60vh;
 }
 
  .famImg{
@@ -234,8 +281,8 @@ p{
 // ==============
  @media(min-width: 1200px){
    .container-fluid{
-     padding-left: 25vw;
-     padding-right: 25vw;
+     padding-left: 23vw;
+     padding-right: 23vw;
    }
     p{
     font-size: 18px;
