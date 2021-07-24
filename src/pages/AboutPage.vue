@@ -201,7 +201,7 @@
           CodeWorks
         </h5>
         <p class="text-light p-3">
-          A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and some amazing people, and discovered what it means to be a software developer.
+          A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and discovered what it means to be a software developer.
         </p>
       </div>
       <img class="codeImg rounded border border-warning" src="../assets/img/codeworks.jpg" alt="">
