@@ -2,7 +2,7 @@
   <div class="art-page container-fluid">
     <div class="row ml-4 py-5">
       <div class="col-8 col-md-4 border-bottom">
-        <h1 class="text-warning  text-font">
+        <h1 class="text-dark  text-font">
           Recent Art
         </h1>
       </div>
@@ -19,23 +19,23 @@
     </div>
     <div class="row ml-4 mt-5 py-5">
       <div class="col-8 col-md-4 border-bottom">
-        <h1 class="text-warning text-font">
+        <h1 class="text-dark text-font">
           2018 Art
         </h1>
       </div>
     </div>
     <div class="row ml-2">
       <div class="col">
-        <img src="../assets/img/SpaceAdd.png" alt="" class="img rounded">
-        <img src="../assets/img/MountainMan.png" alt="" class="img rounded">
-        <img src="../assets/img/abstract.jpg" alt="" class="img rounded">
-        <img src="../assets/img/Guitar.png" alt="" class="img rounded">
-        <img src="../assets/img/FamGift.jpg" alt="" class="img rounded">
-        <img src="../assets/img/IslandGuy.jpg" alt="" class="img rounded">
-        <img src="../assets/img/HairLady.png" alt="" class="img rounded">
-        <img src="../assets/img/emergence.png" alt="" class="img rounded">
-        <img src="../assets/img/bunny.png" alt="" class="img rounded">
-        <img src="../assets/img/Scary.png" alt="" class="img rounded">
+        <img src="../assets/img/SpaceAdd.png" alt="" class="shadow rounded">
+        <img src="../assets/img/MountainMan.png" alt="" class="shadow rounded">
+        <img src="../assets/img/abstract.jpg" alt="" class="shadow rounded">
+        <img src="../assets/img/Guitar.png" alt="" class="shadow rounded">
+        <img src="../assets/img/FamGift.jpg" alt="" class="shadow rounded">
+        <img src="../assets/img/IslandGuy.jpg" alt="" class="shadow rounded">
+        <img src="../assets/img/HairLady.png" alt="" class="shadow rounded">
+        <img src="../assets/img/emergence.png" alt="" class="shadow rounded">
+        <img src="../assets/img/bunny.png" alt="" class="shadow rounded">
+        <img src="../assets/img/Scary.png" alt="" class="shadow rounded">
       </div>
     </div>
   </div>
@@ -52,6 +52,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container-fluid{
+background-color: #8d8d8d;
+background-image: linear-gradient(19deg, #8d8d8d 0%, #DDD6F3 100%);
+
+}
 
 img {
 margin: 5rem;
