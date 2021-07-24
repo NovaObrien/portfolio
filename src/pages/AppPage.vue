@@ -1,5 +1,5 @@
 <template>
-  <div class="app-page container-fluid">
+  <div class="app-page container-fluid test">
     <div class="row d-flex justify-content-center mt-5 border-bottom" id="style">
       <h3 class="text-warning">
         Full-Stack Applications
@@ -68,6 +68,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 .container-fluid{
   padding-left: 5vw;
   padding-right: 5vw;

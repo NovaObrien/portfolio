@@ -9,6 +9,9 @@
     <router-link :to="{ name: 'Art' }" class="nav-link">
       Art
     </router-link>
+    <router-link :to="{ name: 'Photo' }" class="nav-link">
+      Photo
+    </router-link>
     <router-link :to="{ name: 'LinkedIn' }" class="nav-link">
       LinkedIn
     </router-link>
@@ -39,7 +42,7 @@ export default {
 
 <style scoped>
 .navbar{
-  background-color: rgba(214, 212, 208, 0.281);
+  background-color: rgba(214, 212, 208, 0.24);
 }
 .hoverable {
   cursor: pointer;
@@ -50,7 +53,7 @@ a:hover {
 .nav-link{
   font-size: 10px;
   text-transform: uppercase;
-  padding: .5rem;
+  padding: .4rem;
 }
 .nav-item .nav-link.router-link-exact-active{
   color: var(--warning);
