@@ -19,6 +19,13 @@
       <h2>Software Developer</h2>
     </div>
 
+    <div class="row  mt-5 p-2 py-5 d-flex justify-content-center text-light bg-oppacity text-center text-font">
+      <h5>Hello, I'm Nova. I started programing back in 2016. I spend my time working on app development, game development, and other forms of media such as photography, music, and art.</h5>
+      <h5 class="py-3">
+        Feel Free to contact me for any projects you need help on!
+      </h5>
+    </div>
+
     <div class="row mt-4">
       <div class="col-md-6 col-12 mt-3">
         <div class="row">
@@ -68,6 +75,11 @@
               </li>
               <li>
                 <p>
+                  Three.js, GreenSock
+                </p>
+              </li>
+              <li>
+                <p>
                   Adobe Photoshop, Illustrator, and Animate
                 </p>
               </li>
@@ -102,11 +114,7 @@
                   Python and C++
                 </p>
               </li>
-              <li>
-                <p>
-                  Lazy Loading in C#
-                </p>
-              </li>
+
               <li>
                 <p>
                   Basic Cryptography with batch algorithms
@@ -129,9 +137,14 @@
       <div class="col-12 mb-4">
         <div class="row">
           <div class="col text-light ml-2">
-            <p>
-              Working with a client, I modernized their website for mobile first, as well as making their lives easier when creating listings. These were part of the accepted figma drafts (not final) design for the client
-            </p>
+            <div class="px-2 py-4 row bg-oppacity text-font text-center">
+              <p>
+                Working with a client, I modernized their website for mobile first, as well as making their lives easier when creating listings.
+              </p>
+              <p class="pt-3">
+                Images below were a part of the accepted figma drafts  design for the client (not final).
+              </p>
+            </div>
             <img class="freelanceImg border border-warning rounded m-3" src="../assets/img/Freelance.png" alt="">
             <img class="freelanceImg border border-warning rounded m-3" src="../assets/img/FreelanceListing.png" alt="">
           </div>
@@ -141,12 +154,17 @@
       <div class="col-12 mt-3 ">
         <div class="row mb-5">
           <div class="col text-light mt-2">
-            <p>The clients old website design on mobile:</p>
+            <div class="row py-4 px-2 bg-oppacity text-font text-center">
+              <p>Below is the clients old website on mobile.</p>
+            </div>
             <img class="freelanceImg border border-warning rounded m-3" src="../assets/img/FreelanceOldSite.png" alt="">
           </div>
         </div>
       </div>
     </div>
+    <!-- =========
+=== ABOUT ME=======
+================ -->
 
     <div class="row d-flex justify-content-center text-light text-font border-bottom border-dark m-5 p-2">
       <h2>About Me</h2>
@@ -188,7 +206,7 @@
       </div>
       <img class="codeImg rounded border border-warning" src="../assets/img/codeworks.jpg" alt="">
     </div>
-    <div class="row d-flex justify-content-center">
+    <div class="row d-flex justify-content-center border-top border-dark pt-2">
       <router-link :to="{name: 'Apps'}">
         <p>Check out the Apps Page</p>
       </router-link>
@@ -211,6 +229,9 @@ export default {
 // ==========>
 // Mobile
 // =========
+.bg-oppacity{
+  background-color: rgba(255, 255, 255, 0.274);
+}
 .text-font{
    font-family: 'Nanum Myeongjo', serif;
     letter-spacing: 4px;
