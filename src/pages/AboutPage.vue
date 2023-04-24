@@ -20,7 +20,8 @@
     </div>
 
     <div class="row  mt-5 p-2 py-5 d-flex justify-content-center text-light bg-oppacity text-center text-font">
-      <h5>Hello, I'm Nova. I started programing back in 2016. I spend my time working on app development, game development, and other forms of media such as photography, music, and art.</h5>
+      <h5>Hello, I'm Nova. I started programming back in 2016. I spend my time working on app development, game
+        development, and other forms of media such as photography, music, and art.</h5>
       <h5 class="py-3">
         Feel Free to contact me for any projects you need help on!
       </h5>
@@ -139,10 +140,11 @@
           <div class="col text-light ml-2">
             <div class="px-2 py-4 row bg-oppacity text-font text-center">
               <p>
-                Working with a client, I modernized their website for mobile first, as well as making their lives easier when creating listings.
+                Working with a client, I modernized their website for mobile first, as well as making their lives easier
+                when creating listings.
               </p>
               <p class="pt-3">
-                Images below were a part of the accepted figma drafts  design for the client (not final).
+                Images below were a part of the accepted figma drafts design for the client (not final).
               </p>
             </div>
             <img class="freelanceImg border border-warning rounded m-3" src="../assets/img/Freelance.png" alt="">
@@ -172,14 +174,15 @@
 
     <div class="row mt-5 d-flex justify-content-center">
       <div class="col-6 mt-3">
-        <img class="famImg rounded border border-warning" src="../assets/img/Family3.jpg" alt="">
+        <img class="famImg rounded border border-warning" src="../assets/img/Partner.jpg" alt="">
       </div>
       <div class="col-6 mt-3">
         <h5 class="text-warning text-font border-bottom">
-          My Family
+          My Life
         </h5>
         <p class="text-light p-3">
-          My other half is this wonderful human. (We also have a small little rat dog, and a large number of plants that we consider family)
+          Between spending time with my partner, working on projects, and studying, I enjoy playing video games, reading,
+          and watching movies.
         </p>
       </div>
 
@@ -188,7 +191,8 @@
           Adventure & Exploration
         </h5>
         <p class="text-light p-3">
-          Some of my fondest memories are trecking into mountains, long drives with good music, and discovering new sights. (Climbing Angels Landing in Zion with my old man)
+          Some of my fondest memories are trekking into mountains, long drives with good music, and discovering new
+          sights. (Climbing Angels Landing in Zion with my old man)
         </p>
       </div>
       <div class="col-6 mt-5">
@@ -201,13 +205,14 @@
           CodeWorks
         </h5>
         <p class="text-light p-3">
-          A highlight of the notorius 2020 year was spending the end of it with these guys.. I met some incredible minds and some amazing people, and discovered what it means to be a software developer.
+          A highlight of the notorious 2020 year was spending the end of it with these guys.. I met some incredible minds
+          and some amazing people, and discovered what it means to be a software developer.
         </p>
       </div>
       <img class="codeImg rounded border border-warning" src="../assets/img/codeworks.jpg" alt="">
     </div>
     <div class="row d-flex justify-content-center border-top border-dark pt-2">
-      <router-link :to="{name: 'Apps'}">
+      <router-link :to="{ name: 'Apps' }">
         <p>Check out the Apps Page</p>
       </router-link>
     </div>
@@ -229,106 +234,116 @@ export default {
 // ==========>
 // Mobile
 // =========
-.bg-oppacity{
+.bg-oppacity {
   background-color: rgba(255, 255, 255, 0.274);
 }
-.text-font{
-   font-family: 'Nanum Myeongjo', serif;
-    letter-spacing: 4px;
-   padding-bottom: 10px;
-}
-  h1{
-    font-family: 'Limelight', cursive;
-    letter-spacing: 2px;
-  }
- p{
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 25px;
-  }
 
-.portImg{
-height: 50vh;
+.text-font {
+  font-family: 'Nanum Myeongjo', serif;
+  letter-spacing: 4px;
+  padding-bottom: 10px;
 }
 
-.freelanceImg{
+h1 {
+  font-family: 'Limelight', cursive;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.portImg {
+  height: 50vh;
+}
+
+.freelanceImg {
   max-height: 60vh;
 }
 
- .famImg{
-    max-height: 20vh;
-    max-width: 47vw;
-    margin-top: 3rem;
-  }
-.angelImg{
+.famImg {
+  max-height: 20vh;
+  max-width: 47vw;
+  margin-top: 3rem;
+}
+
+.angelImg {
   max-height: 32vh;
-    margin-top: 5rem;
+  margin-top: 5rem;
 
 }
-  .codeImg{
-    max-height: 27vh;
-  }
 
-  // =========
-  // Tablets
-  // ==========
- @media(min-width: 481px){
-    p{
+.codeImg {
+  max-height: 27vh;
+}
+
+// =========
+// Tablets
+// ==========
+@media(min-width: 481px) {
+  p {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 25px;
   }
-.container-fluid{
-margin-left: 12vw;
-margin-right: 12vw;
-// padding-left: 3em;
-// padding-right: 3em;
+
+  .container-fluid {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    // padding-left: 3em;
+    // padding-right: 3em;
+
+  }
 
 }
 
-}
 // =================
 // Small screeens Laptops
 // ==================
- @media(min-width: 768px){
-.famImg{
-  max-height: 22vh;
-  max-width: 33vw;
-}
-p{
+@media(min-width: 768px) {
+  .famImg {
+    max-height: 22vh;
+    max-width: 33vw;
+  }
+
+  p {
     font-size: 21px;
   }
 }
+
 // ===========
 // Desktops
 // ===========
- @media(min-width: 1024px){
+@media(min-width: 1024px) {}
 
-}
 // ============
 // extra large screens
 // ==============
- @media(min-width: 1200px){
-   .container-fluid{
-     margin-left: 18vw;
-     margin-right: 18vw;
+@media(min-width: 1200px) {
+  .container-fluid {
+    margin-left: 18vw;
+    margin-right: 18vw;
 
-   }
-    p{
+  }
+
+  p {
     font-size: 17px;
   }
 
- }
+}
 
- @media(min-width: 1800px){
-   .container-fluid{
-     margin-left: 25vw;
-     margin-right: 25vw;
+@media(min-width: 1800px) {
+  .container-fluid {
+    margin-left: 25vw;
+    margin-right: 25vw;
 
-   }
-     p{
+  }
+
+  p {
     font-size: 20px;
   }
 
- }
+}
 </style>
